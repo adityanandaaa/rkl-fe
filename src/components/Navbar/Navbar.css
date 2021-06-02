@@ -1,0 +1,47 @@
+.navbar-contain {
+    width: 100vw;
+    height: 100px;
+}
+.img-navbar {
+    position: absolute;
+    left: 127px;
+    top: 40%;
+    /* padding-left: 127px;
+    padding-top: 50px; */
+}
+
+.text-navbar {
+    /* font-family: Merriweather Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    text-decoration: none;
+
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.home-navbar {
+    position: absolute;
+    left: 64.38%;
+    right: 30.56%;
+    bottom: 5%;
+}
+
+.brands-navbar {
+    position: absolute;
+    left: 73.61%;
+    right: 20.42%;
+    bottom: 5%;
+}
+
+.career-navbar {
+    position: absolute;
+    left: 83.75%;
+    right: 9.58%;
+    bottom: 5%;
+}

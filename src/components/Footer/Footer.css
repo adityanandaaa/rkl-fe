@@ -1,0 +1,724 @@
+.section-class-footer {
+    position: relative;
+    background: black;
+    height: 390px;
+}
+
+.image-footer-logo {
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    left: 139px;
+    top: 50px;
+    border-radius: 0px;
+}
+
+.text-footer {
+    color: #ffffff;
+    /* font-family: Merriweather Sans; */
+    /* font-style: normal; */
+}
+
+.desc-footer {
+    position: absolute;
+    width: 681px;
+    height: 66px;
+    left: 9.65%;
+    right: 39.58%;
+    top: 28.21%;
+    bottom: 54.87%;
+    text-align: left;
+
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+
+    letter-spacing: 0.02em;
+}
+
+.email-footer {
+    position: absolute;
+    width: 178px;
+    height: 36px;
+    left: 9.65%;
+    right: 77.99%;
+    top: 56.41%;
+    /* bottom: 34.36%; */
+    text-align: left;
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    letter-spacing: 0.02em;
+}
+
+.link-column {
+    text-align: left;
+}
+.home-text {
+    position: absolute;
+    left: 962px;
+    top: 110px;
+
+    /* left: 66.81%;
+    right: 27.78%;
+    top: 26.21%; */
+    /* bottom: 61.79%; */
+}
+.brand-text {
+    position: absolute;
+
+    left: 961px;
+    top: 164px;
+
+    /* left: 66.74%;
+    right: 27.78%;
+    top: 42.05%; */
+    /* bottom: 47.95%; */
+}
+.career-text {
+    position: absolute;
+    left: 961px;
+    top: 218px;
+
+    /* left: 66.74%;
+    right: 26.46%;
+    top: 55.9%; */
+    /* bottom: 34.1%; */
+}
+.about-text {
+    position: absolute;
+    left: 1110px;
+    top: 110px;
+
+    /* left: 77.08%;
+    right: 17.36%;
+    top: 28.21%; */
+    /* bottom: 61.79%; */
+}
+.gallery-text {
+    position: absolute;
+    left: 1110px;
+    top: 164px;
+
+    /* left: 77.08%;
+    right: 16.39%;
+    top: 42.05%; */
+    /* bottom: 47.95%; */
+}
+.footer-logo-socmed {
+}
+
+.ig-footer-logo {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    left: 1110px;
+    top: 247px;
+
+    /* left: 77.08%;
+    right: 20.69%;
+    top: 62.92%; */
+    /* bottom: 34.87%; */
+}
+.fb-footer-logo {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    left: 1162px;
+    top: 247px;
+
+    /* left: 80.69%;
+    right: 17.08%;
+    top: 62.92%; */
+    /* bottom: 34.87%; */
+}
+
+.text-link {
+    /* font-family: Merriweather Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 150%;
+    /* identical to box height, or 39px */
+
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.garis-footer {
+    position: absolute;
+    height: 0px;
+    width: 1162px;
+    left: 139px;
+    top: 307px;
+    border-radius: nullpx;
+
+    /* left: 9.65%;
+    right: 9.65%;
+    top: 76.59%; */
+    /* bottom: 27.41%; */
+
+    border: 1px solid #ffffff;
+}
+
+.copyright-footer {
+    position: absolute;
+    color: #ffffff;
+    left: 9.65%;
+    right: 80.21%;
+    top: 81.28%;
+    /* bottom: 12.56%; */
+}
+
+/* 1280 x 720 */
+@media screen and (min-width: 1280px) and (max-width: 1365px) and (min-height: 719px) {
+    .section-class-footer {
+        height: 390px;
+    }
+
+    .image-footer-logo {
+        height: 50px;
+        width: 50px;
+        left: 10%;
+        top: 15%;
+        border-radius: 0px;
+    }
+
+    .desc-footer {
+        width: 681px;
+        height: 66px;
+        left: 10%;
+        right: 0%;
+        top: 28.21%;
+        bottom: 54.87%;
+
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .email-footer {
+        width: 178px;
+        height: 36px;
+        left: 10;
+        right: 77.99%;
+        top: 56.41%;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .link-column {
+    }
+    .home-text {
+        left: 73%;
+        top: 28%;
+    }
+    .brand-text {
+        left: 73%;
+        top: 40%;
+    }
+    .career-text {
+        left: 73%;
+        top: 53%;
+    }
+    .about-text {
+        left: 85%;
+        top: 28%;
+    }
+    .gallery-text {
+        left: 85%;
+        top: 40%;
+    }
+    .footer-logo-socmed {
+    }
+
+    .ig-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 85%;
+        top: 61%;
+    }
+    .fb-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 89%;
+        top: 61%;
+    }
+
+    .text-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 150%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .garis-footer {
+        position: absolute;
+        height: 0px;
+        width: 1050px;
+        left: 10%;
+        top: 307px;
+        border-radius: nullpx;
+
+        border: 1px solid #ffffff;
+    }
+
+    .copyright-footer {
+        position: absolute;
+        color: #ffffff;
+        width: 50%;
+        left: 9.65%;
+        right: 80.21%;
+        top: 81.28%;
+        /* bottom: 12.56%; */
+    }
+}
+
+/* 1366 x 768 */
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    .section-class-footer {
+        height: 390px;
+    }
+
+    .image-footer-logo {
+        height: 50px;
+        width: 50px;
+        left: 10%;
+        top: 15%;
+        border-radius: 0px;
+    }
+
+    .desc-footer {
+        width: 681px;
+        height: 66px;
+        left: 10%;
+        right: 0%;
+        top: 28.21%;
+        bottom: 54.87%;
+
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .email-footer {
+        width: 178px;
+        height: 36px;
+        left: 10;
+        right: 77.99%;
+        top: 56.41%;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .link-column {
+    }
+    .home-text {
+        left: 73%;
+        top: 28%;
+    }
+    .brand-text {
+        left: 73%;
+        top: 40%;
+    }
+    .career-text {
+        left: 73%;
+        top: 53%;
+    }
+    .about-text {
+        left: 85%;
+        top: 28%;
+    }
+    .gallery-text {
+        left: 85%;
+        top: 40%;
+    }
+    .footer-logo-socmed {
+    }
+
+    .ig-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 85%;
+        top: 61%;
+    }
+    .fb-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 89%;
+        top: 61%;
+    }
+
+    .text-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 150%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .garis-footer {
+        position: absolute;
+        height: 0px;
+        width: 1150px;
+        left: 10%;
+        top: 307px;
+
+        border: 1px solid #ffffff;
+    }
+
+    .copyright-footer {
+        position: absolute;
+        color: #ffffff;
+        width: 50%;
+        left: 9.65%;
+        right: 80.21%;
+        top: 81.28%;
+        /* bottom: 12.56%; */
+    }
+}
+
+/* 1536 x 864 */
+@media screen and (min-width: 1536px) and (max-width: 1599px) {
+    .section-class-footer {
+        height: 390px;
+    }
+
+    .image-footer-logo {
+        height: 60px;
+        width: 60px;
+        left: 10%;
+        top: 15%;
+        border-radius: 0px;
+    }
+
+    .desc-footer {
+        width: 681px;
+        height: 66px;
+        left: 10%;
+        right: 0%;
+        top: 32 0.21%;
+        bottom: 54.87%;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .email-footer {
+        width: 178px;
+        height: 36px;
+        left: 10;
+        right: 77.99%;
+        top: 56.41%;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .link-column {
+    }
+    .home-text {
+        left: 70%;
+        top: 28%;
+    }
+    .brand-text {
+        left: 70%;
+        top: 40%;
+    }
+    .career-text {
+        left: 70%;
+        top: 53%;
+    }
+    .about-text {
+        left: 82%;
+        top: 28%;
+    }
+    .gallery-text {
+        left: 82%;
+        top: 40%;
+    }
+    .footer-logo-socmed {
+    }
+
+    .ig-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 82%;
+        top: 61%;
+    }
+    .fb-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 86%;
+        top: 61%;
+    }
+
+    .text-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 150%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .garis-footer {
+        position: absolute;
+        height: 0px;
+        width: 1230px;
+        left: 10%;
+        top: 307px;
+
+        border: 1px solid #ffffff;
+    }
+
+    .copyright-footer {
+        position: absolute;
+        color: #ffffff;
+        width: 50%;
+        left: 9.65%;
+        right: 80.21%;
+        top: 81.28%;
+        /* bottom: 12.56%; */
+    }
+}
+
+/* 1600 x 900 */
+@media screen and (min-width: 1600px) and (max-width: 1601px) {
+    .section-class-footer {
+        height: 390px;
+    }
+
+    .image-footer-logo {
+        height: 60px;
+        width: 60px;
+        left: 10%;
+        top: 15%;
+        border-radius: 0px;
+    }
+
+    .desc-footer {
+        width: 681px;
+        height: 66px;
+        left: 10%;
+        right: 0%;
+        top: 34.21%;
+        bottom: 54.87%;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .email-footer {
+        width: 178px;
+        height: 36px;
+        left: 10;
+        right: 77.99%;
+        top: 56.41%;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .link-column {
+    }
+    .home-text {
+        left: 70%;
+        top: 28%;
+    }
+    .brand-text {
+        left: 70%;
+        top: 40%;
+    }
+    .career-text {
+        left: 70%;
+        top: 53%;
+    }
+    .about-text {
+        left: 82%;
+        top: 28%;
+    }
+    .gallery-text {
+        left: 82%;
+        top: 40%;
+    }
+    .footer-logo-socmed {
+    }
+
+    .ig-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 82%;
+        top: 61%;
+    }
+    .fb-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 85.5%;
+        top: 61%;
+    }
+
+    .text-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 150%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .garis-footer {
+        position: absolute;
+        height: 0px;
+        width: 1250px;
+        left: 9.5%;
+        top: 307px;
+
+        border: 1px solid #ffffff;
+    }
+
+    .copyright-footer {
+        position: absolute;
+        color: #ffffff;
+        width: 50%;
+        left: 9.65%;
+        right: 80.21%;
+        top: 81.28%;
+        /* bottom: 12.56%; */
+    }
+}
+
+/* 1920 x 1080 */
+@media screen and (min-width: 1920px) and (max-width: 1921px) {
+    .section-class-footer {
+        height: 390px;
+    }
+
+    .image-footer-logo {
+        height: 60px;
+        width: 60px;
+        left: 10%;
+        top: 15%;
+        border-radius: 0px;
+    }
+
+    .desc-footer {
+        width: 721px;
+        height: 66px;
+        left: 10%;
+        right: 0%;
+        top: 34.21%;
+        bottom: 54.87%;
+
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .email-footer {
+        width: 178px;
+        height: 36px;
+        left: 10;
+        right: 0%;
+        top: 56.41%;
+
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .link-column {
+    }
+    .home-text {
+        left: 70%;
+        top: 28%;
+    }
+    .brand-text {
+        left: 70%;
+        top: 40%;
+    }
+    .career-text {
+        left: 70%;
+        top: 53%;
+    }
+    .about-text {
+        left: 82%;
+        top: 28%;
+    }
+    .gallery-text {
+        left: 82%;
+        top: 40%;
+    }
+    .footer-logo-socmed {
+    }
+
+    .ig-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 82%;
+        top: 61%;
+    }
+    .fb-footer-logo {
+        height: 32px;
+        width: 32px;
+        left: 85.5%;
+        top: 61%;
+    }
+
+    .text-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 150%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .garis-footer {
+        position: absolute;
+        height: 0px;
+        width: 1550px;
+        left: 9.5%;
+        top: 307px;
+
+        border: 1px solid #ffffff;
+    }
+
+    .copyright-footer {
+        position: absolute;
+        color: #ffffff;
+        width: 50%;
+        left: 9.65%;
+        right: 80.21%;
+        top: 81.28%;
+        font-size: 18px;
+        /* bottom: 12.56%; */
+    }
+}
