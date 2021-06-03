@@ -89,6 +89,7 @@
 
 .flip-card-back {
     /* background-image: url("../../brand/brand\ -\ 1.png"); */
+    background-color: #707070;
     color: white;
     transform: rotateY(180deg);
 }
@@ -177,6 +178,8 @@
 }
 
 .image-brand1 {
+    width: 374px;
+    height: 250px;
 }
 
 .contain-brand2 {
@@ -189,6 +192,8 @@
 }
 
 .image-brand2 {
+    width: 374px;
+    height: 250px;
 }
 
 .contain-brand3 {
@@ -201,6 +206,8 @@
 }
 
 .image-brand3 {
+    width: 374px;
+    height: 250px;
 }
 
 .contain-brand4 {
@@ -214,6 +221,8 @@
 }
 
 .image-brand4 {
+    width: 374px;
+    height: 250px;
 }
 
 .contain-brand5 {
@@ -227,6 +236,8 @@
 }
 
 .image-brand5 {
+    width: 374px;
+    height: 250px;
 }
 
 .section-class-event {
