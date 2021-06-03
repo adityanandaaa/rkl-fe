@@ -10,12 +10,10 @@ import Router from "./routes";
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <Navbars />
-            </header>
+            <header className="App-header">{/* <Navbars /> */}</header>
 
             <Router />
-            <Footers />
+            {/* <Footers /> */}
         </div>
     );
 }

@@ -52,7 +52,7 @@
 
 .flip-card {
     background-color: transparent;
-    perspective: 1000px;
+    /* perspective: 1000px; */
 }
 
 .flip-card-inner {
@@ -60,7 +60,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 1s;
+    /* transition: transform 1s; */
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -391,6 +391,12 @@
     padding-top: 120px;
 }
 
+.gallery-row-andro {
+    padding-top: 90px;
+    display: none;
+    width: 360x;
+}
+
 .text-field-1 {
     position: absolute;
     width: auto;
@@ -469,6 +475,428 @@
 
     text-align: center;
     letter-spacing: 0.02em;
+}
+/* android */
+@media screen and (max-width: 374px) {
+    .section-class-home-page {
+        height: 80vh;
+    }
+    .bg-for-homepage {
+        display: block;
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-homepage {
+        object-fit: cover;
+    }
+    .text-homepage-contain {
+        width: 70%;
+        height: 30%;
+        left: 15%;
+        top: 15%;
+    }
+
+    .textbox-homepage {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+
+        text-shadow: 0px 4px 14px #a97b50;
+    }
+    .section-class-brand {
+        height: 140vh;
+        /* height: 200vh; */
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card:hover .text-brand {
+        display: none;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    }
+
+    .flip-card-back {
+        /* background-image: url("../../brand/brand\ -\ 1.png"); */
+        color: white;
+        transform: rotateY(180deg);
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .text-brand {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+    .text-brand-flip {
+        /* opacity: 1 !important; */
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .text-alamat {
+        /* opacity: 1 !important; */
+        position: absolute;
+        width: auto;
+        height: 108px;
+        left: 5%;
+        top: 35%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+    }
+
+    .ig-brand {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: 8px;
+        left: 16px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .next-brand {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: 8px;
+        right: 16px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .contain-brand1 {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 8.35%;
+        top: 2%;
+    }
+
+    .image-brand1 {
+        width: 300px;
+        height: 150px;
+    }
+
+    .contain-brand2 {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 8.35%;
+        top: 21%;
+    }
+
+    .image-brand2 {
+        width: 300px;
+        height: 150px;
+    }
+
+    .contain-brand3 {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 8.35%;
+        top: 40%;
+    }
+
+    .image-brand3 {
+        width: 300px;
+        height: 150px;
+    }
+
+    .contain-brand4 {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 8.35%;
+        top: 59%;
+    }
+
+    .image-brand4 {
+        width: 300px;
+        height: 150px;
+    }
+
+    .contain-brand5 {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 8.35%;
+        top: 78%;
+    }
+
+    .image-brand5 {
+        width: 300px;
+        height: 150px;
+    }
+
+    .section-class-event {
+        width: 100vw;
+        height: 70vh;
+    }
+    .carousel-event-promo {
+        padding-top: 100px;
+    }
+    .event-promo-title {
+        position: absolute;
+        left: 19.5%;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .garis-event {
+        position: absolute;
+        width: 217px;
+        height: 0px;
+        left: 19.5%;
+        top: 15%;
+    }
+
+    .card-event-promo {
+        padding-left: 90px;
+        width: 190px;
+        height: auto;
+    }
+    .image-event-promo {
+        width: 190px;
+        height: 202px;
+    }
+
+    .event-promo-subtitle {
+        width: 190px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+        margin: 0px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .event-promo-brand {
+        width: auto;
+        height: auto;
+        left: 0px;
+        top: 72px;
+        margin: 0px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .event-promo-date {
+        width: auto;
+        height: auto;
+        left: 0px;
+        top: 102px;
+        margin: 0px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-gallery {
+        height: 193vh;
+    }
+    .gallery-title {
+        left: 33%;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+    }
+
+    .garis-gallery {
+        width: 115px;
+        height: 0px;
+        left: 33%;
+        top: 5%;
+    }
+
+    .gallery-row {
+        padding-top: 90px;
+        display: none;
+    }
+
+    .gallery-row-andro {
+        padding-top: 90px;
+        display: block;
+        width: 360x;
+    }
+
+    .text-field-1 {
+        height: 88px;
+        left: 15%;
+        top: 82%;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .text-field-2 {
+        position: absolute;
+        width: auto;
+        height: 88px;
+        left: 45%;
+        top: 82%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .form-email-text {
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        left: 15%;
+        top: 87%;
+
+        background: #ffffff;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        letter-spacing: 0.02em;
+
+        opacity: 1; /* Firefox */
+    }
+
+    .button-email-text {
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        left: 15%;
+        top: 92%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
 }
 
 /* 1280 x 720 */

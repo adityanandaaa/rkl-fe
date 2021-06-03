@@ -7,6 +7,10 @@ import "./Home.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // import Footers from "../components/Footer/Footer.js";
+
+const test1 = {
+    width: 120,
+};
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -89,6 +93,70 @@ const IMAGES = [
     },
 ];
 
+const IMAGESandro = [
+    {
+        src: "gallery/gallery - 1.png",
+        thumbnail: "gallery/gallery - 1.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 2.png",
+        thumbnail: "gallery/gallery - 2.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 3.png",
+        thumbnail: "gallery/gallery - 3.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 4.png",
+        thumbnail: "gallery/gallery - 4.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 5.png",
+        thumbnail: "gallery/gallery - 5.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+
+    {
+        src: "gallery/gallery - 6.png",
+        thumbnail: "gallery/gallery - 6.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 7.png",
+        thumbnail: "gallery/gallery - 7.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 8.png",
+        thumbnail: "gallery/gallery - 8.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 9.png",
+        thumbnail: "gallery/gallery - 9.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery/gallery - 10.png",
+        thumbnail: "gallery/gallery - 10.png",
+        thumbnailWidth: 100,
+        thumbnailHeight: 100,
+    },
+];
+
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -132,16 +200,27 @@ class Home extends Component {
                                 <p class="text-brand">Cafe Ruci</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand1"
+                                    src="brand/brand - 1.png"
+                                    style={{ opacity: "0.6" }}
+                                ></img>
                                 <p class="text-brand-flip">Cafe Ruci</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
                                 </p>
-                                <img
+                                <a
                                     class="ig-brand"
-                                    src="Icon/Instagram - White.png"
-                                ></img>
+                                    href="https://www.instagram.com/caferuci/"
+                                >
+                                    <img
+                                        class="ig-brand"
+                                        src="Icon/Instagram - White.png"
+                                    ></img>
+                                </a>
+
                                 <img
                                     class="next-brand"
                                     src="Icon/Frame.png"
@@ -159,19 +238,19 @@ class Home extends Component {
                                 ></img>
                                 <p class="text-brand">RUCI's Joint</p>
                             </div>
-                            <div
-                                class="flip-card-back"
-                                // style={{
-                                //     backgroundImage:
-                                //         "url(../../brand/brand - 1.png)",
-                                // }}
-                            >
+                            <div class="flip-card-back">
+                                <img
+                                    class="image-brand2"
+                                    src="brand/brand - 2.png"
+                                    style={{ opacity: "0.6" }}
+                                ></img>
                                 <p class="text-brand-flip">RUCI's Joint</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
                                 </p>
+
                                 <img
                                     class="ig-brand"
                                     src="Icon/Instagram - White.png"
@@ -194,16 +273,26 @@ class Home extends Component {
                                 <p class="text-brand">Warget</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand3"
+                                    src="brand/brand - 3.png"
+                                    style={{ opacity: "0.6" }}
+                                ></img>
                                 <p class="text-brand-flip">Warget</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
                                 </p>
-                                <img
+                                <a
                                     class="ig-brand"
-                                    src="Icon/Instagram - White.png"
-                                ></img>
+                                    href="https://www.instagram.com/wargetbahagia/"
+                                >
+                                    <img
+                                        class="ig-brand"
+                                        src="Icon/Instagram - White.png"
+                                    ></img>
+                                </a>
                                 <img
                                     class="next-brand"
                                     src="Icon/Frame.png"
@@ -222,6 +311,11 @@ class Home extends Component {
                                 <p class="text-brand">123</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand4"
+                                    src="brand/brand - 4.png"
+                                    style={{ opacity: "0.6" }}
+                                ></img>
                                 <p class="text-brand-flip">123</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -250,16 +344,26 @@ class Home extends Component {
                                 <p class="text-brand">Rararamenbar</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand5"
+                                    src="brand/brand - 5.png"
+                                    style={{ opacity: "0.6" }}
+                                ></img>
                                 <p class="text-brand-flip">Rararamenbar</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
                                 </p>
-                                <img
+                                <a
                                     class="ig-brand"
-                                    src="Icon/Instagram - White.png"
-                                ></img>
+                                    href="https://www.instagram.com/rararamenbar/"
+                                >
+                                    <img
+                                        class="ig-brand"
+                                        src="Icon/Instagram - White.png"
+                                    ></img>
+                                </a>
                                 <img
                                     class="next-brand"
                                     src="Icon/Frame.png"
@@ -376,6 +480,20 @@ class Home extends Component {
                     <p class="gallery-title">GALLERY</p>
                     <div class="garis-gallery"></div>
 
+                    <div class="gallery-row-andro">
+                        <Gallery
+                            images={IMAGESandro}
+                            backdropClosesModal={true}
+                            showImageCount={false}
+                            enableImageSelection={false}
+                            margin={0}
+                            maxRows={10}
+                            // rowHeight={220}
+                            id={"test122"}
+                            // tagStyle={test1}
+                        />
+                    </div>
+
                     <div class="gallery-row">
                         <Gallery
                             images={IMAGES}
@@ -383,9 +501,10 @@ class Home extends Component {
                             showImageCount={false}
                             enableImageSelection={false}
                             margin={0}
-                            maxRows={5}
+                            // maxRows={5}
                             rowHeight={216}
                             id={"test122"}
+                            // tagStyle={test1}
                         />
                     </div>
 
