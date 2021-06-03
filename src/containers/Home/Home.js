@@ -195,16 +195,14 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand1"
-                                    src="brand/brand - 1.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "brand/brand - 1.png"
+                                    }
                                 ></img>
                                 {/* <p class="text-brand">Cafe Ruci</p> */}
                             </div>
                             <div class="flip-card-back">
-                                {/* <img
-                                    class="image-brand1"
-                                    src="brand/brand - 1.png"
-                                    style={{ opacity: "0.6" }}
-                                ></img> */}
                                 <p class="text-brand-flip">Cafe Ruci</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -217,13 +215,19 @@ class Home extends Component {
                                 >
                                     <img
                                         class="ig-brand"
-                                        src="Icon/Instagram - White.png"
+                                        src={
+                                            process.env.PUBLIC_URL +
+                                            "Icon/Instagram - White.png"
+                                        }
                                     ></img>
                                 </a>
 
                                 <img
                                     class="next-brand"
-                                    src="Icon/Frame.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Frame.png"
+                                    }
                                 ></img>
                             </div>
                         </div>
@@ -234,16 +238,14 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand2"
-                                    src="brand/brand - 2.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "brand/brand - 2.png"
+                                    }
                                 ></img>
                                 {/* <p class="text-brand">RUCI's Joint</p> */}
                             </div>
                             <div class="flip-card-back">
-                                {/* <img
-                                    class="image-brand2"
-                                    src="brand/brand - 2.png"
-                                    style={{ opacity: "0.6" }}
-                                ></img> */}
                                 <p class="text-brand-flip">RUCI's Joint</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -253,11 +255,17 @@ class Home extends Component {
 
                                 <img
                                     class="ig-brand"
-                                    src="Icon/Instagram - White.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Instagram - White.png"
+                                    }
                                 ></img>
                                 <img
                                     class="next-brand"
-                                    src="Icon/Frame.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Frame.png"
+                                    }
                                 ></img>
                             </div>
                         </div>
@@ -268,16 +276,14 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand3"
-                                    src="brand/brand - 3.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "brand/brand - 3.png"
+                                    }
                                 ></img>
                                 {/* <p class="text-brand">Warget</p> */}
                             </div>
                             <div class="flip-card-back">
-                                {/* <img
-                                    class="image-brand3"
-                                    src="brand/brand - 3.png"
-                                    style={{ opacity: "0.6" }}
-                                ></img> */}
                                 <p class="text-brand-flip">Warget</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -290,11 +296,18 @@ class Home extends Component {
                                 >
                                     <img
                                         class="ig-brand"
-                                        src="Icon/Instagram - White.png"
+                                        src={
+                                            process.env.PUBLIC_URL +
+                                            "Icon/Instagram - White.png"
+                                        }
                                     ></img>
                                 </a>
                                 <img
                                     class="next-brand"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Frame.png"
+                                    }
                                     src="Icon/Frame.png"
                                 ></img>
                             </div>
@@ -306,16 +319,14 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand4"
-                                    src="brand/brand - 4.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "brand/brand - 4.png"
+                                    }
                                 ></img>
                                 {/* <p class="text-brand">123</p> */}
                             </div>
                             <div class="flip-card-back">
-                                {/* <img
-                                    class="image-brand4"
-                                    src="brand/brand - 4.png"
-                                    style={{ opacity: "0.6" }}
-                                ></img> */}
                                 <p class="text-brand-flip">123</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -324,11 +335,17 @@ class Home extends Component {
                                 </p>
                                 <img
                                     class="ig-brand"
-                                    src="Icon/Instagram - White.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Instagram - White.png"
+                                    }
                                 ></img>
                                 <img
                                     class="next-brand"
-                                    src="Icon/Frame.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Frame.png"
+                                    }
                                 ></img>
                             </div>
                         </div>
@@ -339,16 +356,14 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand5"
-                                    src="brand/brand - 5.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "brand/brand - 5.png"
+                                    }
                                 ></img>
                                 {/* <p class="text-brand">Rararamenbar</p> */}
                             </div>
                             <div class="flip-card-back">
-                                {/* <img
-                                    class="image-brand5"
-                                    src="brand/brand - 5.png"
-                                    style={{ opacity: "0.6" }}
-                                ></img> */}
                                 <p class="text-brand-flip">Rararamenbar</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -361,12 +376,18 @@ class Home extends Component {
                                 >
                                     <img
                                         class="ig-brand"
-                                        src="Icon/Instagram - White.png"
+                                        src={
+                                            process.env.PUBLIC_URL +
+                                            "Icon/Instagram - White.png"
+                                        }
                                     ></img>
                                 </a>
                                 <img
                                     class="next-brand"
-                                    src="Icon/Frame.png"
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "Icon/Frame.png"
+                                    }
                                 ></img>
                             </div>
                         </div>
