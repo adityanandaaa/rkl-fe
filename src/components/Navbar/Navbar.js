@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Navbar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+
 class Navbars extends Component {
     constructor(props) {
         super(props);
@@ -16,12 +17,6 @@ class Navbars extends Component {
                         <img
                             alt=""
                             src="Logo.png"
-                            width="50"
-                            height="50"
-                            // style={{
-                            //     paddingLeft: "127px",
-                            //     paddingTop: "50px",
-                            // }}
                             className="d-inline-block align-top img-navbar"
                         />
                     </Navbar.Brand>
@@ -41,6 +36,7 @@ class Navbars extends Component {
                     >
                         CAREER
                     </Nav.Link>
+
                     {/* </Nav> */}
                 </Navbar>
             </div>

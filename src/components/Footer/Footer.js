@@ -29,11 +29,11 @@ class Footers extends Component {
                         {/* <div class="footer-logo-socmed"> */}
                         <img
                             class="ig-footer-logo"
-                            src="Icon/Instagram - White.png"
+                            src="Instagram - White.png"
                         ></img>
                         <img
                             class="fb-footer-logo"
-                            src="Icon/Facebook - White.png"
+                            src="Facebook - White.png"
                         ></img>
                         {/* </div> */}
                     </div>

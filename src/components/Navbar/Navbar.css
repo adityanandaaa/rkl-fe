@@ -2,10 +2,17 @@
     width: 100vw;
     height: 100px;
 }
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar-contain .icon {
+    display: none;
+}
 .img-navbar {
     position: absolute;
     left: 127px;
     top: 40%;
+    width: 50px;
+    height: 50px;
     /* padding-left: 127px;
     padding-top: 50px; */
 }
@@ -27,21 +34,214 @@
 
 .home-navbar {
     position: absolute;
-    left: 64.38%;
-    right: 30.56%;
-    bottom: 5%;
+    left: 927px;
+    bottom: 3px;
 }
 
 .brands-navbar {
     position: absolute;
-    left: 73.61%;
-    right: 20.42%;
-    bottom: 5%;
+    left: 1060px;
+    bottom: 3px;
 }
 
 .career-navbar {
     position: absolute;
-    left: 83.75%;
-    right: 9.58%;
-    bottom: 5%;
+    left: 1206px;
+    bottom: 3px;
+}
+
+/* android */
+@media screen and (max-width: 374px) {
+    .navbar-contain {
+        width: 100vw;
+        height: 60px;
+    }
+
+    .img-navbar {
+        position: absolute;
+        left: 27px;
+        top: 20px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .text-navbar {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        text-decoration: none;
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+    }
+
+    .home-navbar {
+        position: absolute;
+        left: 90px;
+        bottom: 13px;
+    }
+
+    .brands-navbar {
+        position: absolute;
+        left: 170px;
+        bottom: 13px;
+    }
+
+    .career-navbar {
+        position: absolute;
+        left: 260px;
+        bottom: 13px;
+    }
+}
+
+/* iphone 6/7/8 */
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    .navbar-contain {
+        width: 100vw;
+        height: 60px;
+    }
+
+    .img-navbar {
+        position: absolute;
+        left: 27px;
+        top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .text-navbar {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        text-decoration: none;
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+    }
+
+    .home-navbar {
+        position: absolute;
+        left: 90px;
+        bottom: 11px;
+    }
+
+    .brands-navbar {
+        position: absolute;
+        left: 175px;
+        bottom: 11px;
+    }
+
+    .career-navbar {
+        position: absolute;
+        left: 280px;
+        bottom: 11px;
+    }
+}
+
+/* iphone 12 */
+@media screen and (min-width: 390px) and (max-width: 413px) and (min-height: 844px) {
+    .navbar-contain {
+        width: 100vw;
+        height: 60px;
+    }
+
+    .img-navbar {
+        position: absolute;
+        left: 27px;
+        top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .text-navbar {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        text-decoration: none;
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+    }
+
+    .home-navbar {
+        position: absolute;
+        left: 100px;
+        bottom: 12px;
+    }
+
+    .brands-navbar {
+        position: absolute;
+        left: 185px;
+        bottom: 12px;
+    }
+
+    .career-navbar {
+        position: absolute;
+        left: 290px;
+        bottom: 12px;
+    }
+}
+
+/* iphone 6/7/8 plus */
+@media screen and (min-width: 414px) and (max-width: 719px) {
+    .navbar-contain {
+        width: 100vw;
+        height: 60px;
+    }
+
+    .img-navbar {
+        position: absolute;
+        left: 27px;
+        top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .text-navbar {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        text-decoration: none;
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+    }
+
+    .home-navbar {
+        position: absolute;
+        left: 120px;
+        bottom: 11px;
+    }
+
+    .brands-navbar {
+        position: absolute;
+        left: 205px;
+        bottom: 11px;
+    }
+
+    .career-navbar {
+        position: absolute;
+        left: 310px;
+        bottom: 11px;
+    }
 }
