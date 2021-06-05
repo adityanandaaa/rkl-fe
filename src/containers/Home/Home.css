@@ -417,6 +417,9 @@
     display: none;
 }
 
+.gallery-row-iphone12promax {
+    display: none;
+}
 .text-field-1 {
     position: absolute;
     width: auto;
@@ -860,7 +863,9 @@
     .gallery-row-iphone678plus {
         display: none;
     }
-
+    .gallery-row-iphone12promax {
+        display: none;
+    }
     .text-field-1 {
         height: auto;
         left: 54px;
@@ -1294,6 +1299,9 @@
     .gallery-row-iphone678plus {
         display: none;
     }
+    .gallery-row-iphone12promax {
+        display: none;
+    }
 
     .text-field-1 {
         height: auto;
@@ -1724,6 +1732,9 @@
     }
 
     .gallery-row-iphone678plus {
+        display: none;
+    }
+    .gallery-row-iphone12promax {
         display: none;
     }
     .text-field-1 {
@@ -2160,6 +2171,9 @@
     .gallery-row-iphone678plus {
         display: none;
     }
+    .gallery-row-iphone12promax {
+        display: none;
+    }
     .text-field-1 {
         height: auto;
         left: 60px;
@@ -2593,6 +2607,9 @@
         padding-top: 90px;
         display: block;
         width: 414px;
+    }
+    .gallery-row-iphone12promax {
+        display: none;
     }
 
     .text-field-1 {
@@ -3030,6 +3047,9 @@
         display: block;
         width: 414px;
     }
+    .gallery-row-iphone12promax {
+        display: none;
+    }
 
     .text-field-1 {
         height: auto;
@@ -3088,6 +3108,446 @@
     .button-email-text {
         position: absolute;
         width: 270px;
+        height: 50px;
+        left: 72px;
+        top: 1233px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone 12 pro max */
+@media screen and (min-width: 428px) and (max-width: 767px) and (min-height: 926px) {
+    .section-class-home-page {
+        height: 70vh;
+    }
+    .bg-for-homepage {
+        display: block;
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-homepage {
+        object-fit: cover;
+    }
+    .text-homepage-contain {
+        width: 80%;
+        height: 30%;
+        left: 10%;
+        top: 20%;
+    }
+
+    .textbox-homepage {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        /* or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+
+        text-shadow: 0px 4px 14px #a97b50;
+    }
+    .section-class-brand {
+        height: 120vh;
+        /* height: 200vh; */
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        /* transition: transform 1s; */
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card:hover .text-brand {
+        display: none;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    }
+
+    .flip-card-back {
+        /* background-image: url("../../brand/brand\ -\ 1.png"); */
+        color: white;
+        transform: rotateY(180deg);
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .text-brand {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+    .text-brand-flip {
+        /* opacity: 1 !important; */
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .text-alamat {
+        /* opacity: 1 !important; */
+        position: absolute;
+        width: auto;
+        height: 108px;
+        left: 0%;
+        top: 35%;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 27px */
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+    }
+
+    .ig-brand {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: 8px;
+        left: 16px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .next-brand {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: 8px;
+        right: 16px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .contain-brand1 {
+        display: block;
+        position: absolute;
+        width: 380px;
+        height: 190px;
+        left: 24px;
+        top: 2%;
+    }
+
+    .image-brand1 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+    }
+
+    .contain-brand2 {
+        display: block;
+        position: absolute;
+        width: 380px;
+        height: 190px;
+        left: 24px;
+        top: 21%;
+    }
+
+    .image-brand2 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+    }
+
+    .contain-brand3 {
+        display: block;
+        position: absolute;
+        width: 380px;
+        height: 190px;
+        left: 24px;
+        top: 40%;
+    }
+
+    .image-brand3 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+    }
+
+    .contain-brand4 {
+        display: block;
+        position: absolute;
+        width: 380px;
+        height: 190px;
+        left: 24px;
+        top: 59%;
+    }
+
+    .image-brand4 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+    }
+
+    .contain-brand5 {
+        display: block;
+        position: absolute;
+        width: 380px;
+        height: 190px;
+        left: 24px;
+        top: 78%;
+    }
+
+    .image-brand5 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+    }
+
+    .section-class-event {
+        width: 100vw;
+        height: 55vh;
+    }
+    .carousel-event-promo {
+        padding-top: 120px;
+    }
+    .event-promo-title {
+        position: absolute;
+        left: 79px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .garis-event {
+        position: absolute;
+        width: 263px;
+        height: 0px;
+        left: 79px;
+        top: 75px;
+    }
+
+    .card-event-promo {
+        padding-left: 90px;
+        width: 240px;
+        height: auto;
+    }
+    .image-event-promo {
+        width: 240px;
+        height: 260px;
+    }
+    .text-event-promo {
+        width: 240px;
+    }
+    .event-promo-subtitle {
+        width: 240px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+        margin: 0px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .event-promo-brand {
+        width: auto;
+        height: auto;
+        left: 0px;
+        top: 72px;
+        margin: 0px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .event-promo-date {
+        width: auto;
+        height: auto;
+        left: 0px;
+        top: 102px;
+        margin: 0px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-gallery {
+        height: 1361px;
+    }
+    .gallery-title {
+        left: 139px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+    }
+
+    .garis-gallery {
+        width: 136px;
+        height: 0px;
+        left: 140.7px;
+        top: 75px;
+    }
+
+    .gallery-row {
+        display: none;
+    }
+
+    .gallery-row-andro {
+        display: none;
+    }
+
+    .gallery-row-iphone678 {
+        display: none;
+    }
+    .gallery-row-iphone12 {
+        display: none;
+    }
+    .gallery-row-iphone678plus {
+        display: none;
+    }
+
+    .gallery-row-iphone12promax {
+        padding-top: 105px;
+        display: block;
+        width: 428px;
+    }
+
+    .text-field-1 {
+        height: auto;
+        left: 72px;
+        top: 1110px;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .text-field-2 {
+        height: auto;
+        left: 196.5px;
+        top: 1110px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .form-email-text {
+        width: 284px;
+        height: 50px;
+        left: 72px;
+        top: 1174px;
+
+        background: #ffffff;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        letter-spacing: 0.02em;
+
+        opacity: 1; /* Firefox */
+    }
+
+    .button-email-text {
+        position: absolute;
+        width: 284px;
         height: 50px;
         left: 72px;
         top: 1233px;
@@ -3425,6 +3885,9 @@
     }
 
     .gallery-row-iphone678plus {
+        display: none;
+    }
+    .gallery-row-iphone12promax {
         display: none;
     }
 
@@ -3826,6 +4289,9 @@
     .gallery-row-iphone678plus {
         display: none;
     }
+    .gallery-row-iphone12promax {
+        display: none;
+    }
 
     .text-field-1 {
         height: 88px;
@@ -4224,6 +4690,9 @@
         display: none;
     }
 
+    .gallery-row-iphone12promax {
+        display: none;
+    }
     .text-field-1 {
         height: 88px;
         left: 26%;
@@ -4621,6 +5090,9 @@
     .gallery-row-iphone678plus {
         display: none;
     }
+    .gallery-row-iphone12promax {
+        display: none;
+    }
 
     .text-field-1 {
         height: 88px;
@@ -5016,6 +5488,9 @@
     }
 
     .gallery-row-iphone678plus {
+        display: none;
+    }
+    .gallery-row-iphone12promax {
         display: none;
     }
 

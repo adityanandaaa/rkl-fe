@@ -1,0 +1,463 @@
+.section-class-about-page {
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    height: 600px;
+}
+.bg-for-aboutpage {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.image-aboutpage {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    opacity: 0.3;
+}
+
+.text-aboutpage {
+    position: absolute;
+    width: 234px;
+    height: 96px;
+    left: 603px;
+    top: 252px;
+
+    /* font-family: Merriweather Sans; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+}
+
+.section-class-company-profile-page {
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    height: 60vh;
+}
+
+.company-profiletext-aboutpage {
+    position: absolute;
+    width: 820px;
+    height: 270px;
+    left: 310px;
+    top: 50px;
+
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    /* or 45px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.button-company-profile-text {
+    position: absolute;
+    width: 328px;
+    height: 60px;
+    left: 556px;
+    top: 380px;
+    background: #000000;
+    color: white;
+
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.section-class-visi-misi-page {
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    height: 60vh;
+}
+
+.visi-misi-title {
+    /* font-family: Merriweather Sans; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.visi-misi-text {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.visi-title {
+    position: absolute;
+    width: 77px;
+    height: 60px;
+    left: 237px;
+    top: 50px;
+}
+.visi-text {
+    position: absolute;
+    width: 730px;
+    height: 60px;
+    left: 474px;
+    top: 70px;
+    text-align: left;
+}
+.visi-misi-garis {
+    position: absolute;
+    width: 967px;
+    height: 1px;
+    left: 237px;
+    top: 210px;
+
+    background: radial-gradient(
+        50.88% 47576398.75% at 50.88% 0%,
+        #000000 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+.misi-title {
+    position: absolute;
+    width: 89px;
+    height: 60px;
+    left: 1115px;
+    top: 241px;
+}
+.misi-text {
+    position: absolute;
+    width: 718px;
+    height: 120px;
+    left: 237px;
+    top: 251px;
+    text-align: left;
+}
+
+.section-class-contact-details-page {
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    height: 55vh;
+}
+
+.contact-details-text-page {
+    position: absolute;
+    width: 248px;
+    height: 120px;
+    left: 433px;
+    top: 104px;
+
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    /* or 60px */
+    text-align: left;
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.contact-details-garis-page {
+    position: absolute;
+    width: 143px;
+    height: 0px;
+    left: 433px;
+    top: 264px;
+
+    border: 2px solid #000000;
+}
+
+.text-contact-details {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    /* identical to box height, or 33px */
+
+    text-align: left;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.mail-contact-details-logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 811px;
+    top: 130px;
+}
+.email-contact-details {
+    position: absolute;
+    width: 162px;
+    height: 30px;
+    left: 850px;
+    top: 128px;
+}
+.telfon-contact-details-logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 811px;
+    top: 180px;
+}
+.telfon-contact-details {
+    position: absolute;
+    width: 162px;
+    height: 30px;
+    left: 850px;
+    top: 158px;
+}
+
+.ig-contact-details-logo {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 811px;
+    top: 236px;
+}
+.fb-contact-details-logo {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 863px;
+    top: 236px;
+}
+
+/* android */
+@media screen and (max-width: 374px) {
+    .section-class-about-page {
+        height: 500px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+    .text-aboutpage {
+        width: 110px;
+        height: 45px;
+        left: 125px;
+        top: 208px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 50vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 324px;
+        height: 216px;
+        left: 18px;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 327px;
+        height: 40px;
+        left: 24px;
+        top: 250px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 60vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 47px;
+        height: 36px;
+        left: 156.5px;
+        top: 6px;
+    }
+    .visi-text {
+        width: 324px;
+        height: 63px;
+        left: 18px;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 165px;
+    }
+    .misi-title {
+        width: 53px;
+        height: 36px;
+        left: 153.5px;
+        top: 166px;
+    }
+    .misi-text {
+        width: 324px;
+        height: 135px;
+        left: 18px;
+        top: 222px;
+
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 50vh;
+    }
+
+    .contact-details-text-page {
+        width: auto;
+        height: 39px;
+        left: 56.2px;
+        top: 20px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 240px;
+        height: 0px;
+        left: 60px;
+        top: 86px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .mail-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px;
+    }
+    .email-contact-details {
+        width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px;
+    }
+    .telfon-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px;
+    }
+    .telfon-contact-details {
+        width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 137px;
+        top: 196px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 187px;
+        top: 196px;
+    }
+}

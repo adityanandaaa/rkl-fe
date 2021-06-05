@@ -16,7 +16,17 @@ class Footers extends Component {
                     RKL is a Food and Beverage company incepted in 2010 with a
                     commitment to make great experience to denizens of Jakarta
                 </p>
-                <p class="email-footer text-footer">hello@rkl.co.id</p>
+                <p class="email-footer text-footer">
+                    <a
+                        lass="email-footer text-footer"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="mailto:hello@rkl.co.id"
+                        style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                        hello@rkl.co.id
+                    </a>
+                </p>
                 <div class="link-column">
                     <div class="text-footer">
                         <p class="text-link home-text">Home</p>

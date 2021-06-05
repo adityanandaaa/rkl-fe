@@ -310,38 +310,102 @@ const IMAGESiphone678plus = [
     {
         src: "gallery - 5.png",
         thumbnail: "gallery - 5.png",
-        thumbnailWidth: 185,
+        thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
 
     {
         src: "gallery - 6.png",
         thumbnail: "gallery - 6.png",
-        thumbnailWidth: 185,
+        thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
         src: "gallery - 7.png",
         thumbnail: "gallery - 7.png",
-        thumbnailWidth: 185,
+        thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
         src: "gallery - 8.png",
         thumbnail: "gallery - 8.png",
-        thumbnailWidth: 185,
+        thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
         src: "gallery - 9.png",
         thumbnail: "gallery - 9.png",
-        thumbnailWidth: 185,
+        thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
         src: "gallery - 10.png",
         thumbnail: "gallery - 10.png",
-        thumbnailWidth: 185,
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+];
+
+const IMAGESiphone12promax = [
+    {
+        src: "gallery - 1.png",
+        thumbnail: "gallery - 1.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 2.png",
+        thumbnail: "gallery - 2.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 3.png",
+        thumbnail: "gallery - 3.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 4.png",
+        thumbnail: "gallery - 4.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 5.png",
+        thumbnail: "gallery - 5.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+
+    {
+        src: "gallery - 6.png",
+        thumbnail: "gallery - 6.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 7.png",
+        thumbnail: "gallery - 7.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 8.png",
+        thumbnail: "gallery - 8.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 9.png",
+        thumbnail: "gallery - 9.png",
+        thumbnailWidth: 207,
+        thumbnailHeight: 100,
+    },
+    {
+        src: "gallery - 10.png",
+        thumbnail: "gallery - 10.png",
+        thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
 ];
@@ -670,6 +734,19 @@ class Home extends Component {
                     <div class="gallery-row-iphone678plus">
                         <Gallery
                             images={IMAGESiphone678plus}
+                            backdropClosesModal={true}
+                            showImageCount={false}
+                            enableImageSelection={false}
+                            margin={0}
+                            maxRows={10}
+                            rowHeight={200}
+                            id={"test122"}
+                            // tagStyle={test1}
+                        />
+                    </div>
+                    <div class="gallery-row-iphone12promax">
+                        <Gallery
+                            images={IMAGESiphone12promax}
                             backdropClosesModal={true}
                             showImageCount={false}
                             enableImageSelection={false}
