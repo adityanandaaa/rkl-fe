@@ -28,63 +28,63 @@ const responsive = {
 
 const IMAGES = [
     {
-        src: "gallery - 1.png",
-        thumbnail: "gallery - 1.png",
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 2.png",
-        thumbnail: "gallery - 2.png",
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 3.png",
-        thumbnail: "gallery - 3.png",
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 4.png",
-        thumbnail: "gallery - 4.png",
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 5.png",
-        thumbnail: "gallery - 5.png",
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
 
     {
-        src: "gallery - 6.png",
-        thumbnail: "gallery - 6.png",
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 7.png",
-        thumbnail: "gallery - 7.png",
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 8.png",
-        thumbnail: "gallery - 8.png",
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "gallery - 9.png",
-        thumbnail: "gallery - 9.png",
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
     {
-        src: "/gallery - 10.png",
-        thumbnail: "gallery - 10.png",
+        src: "/gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
         thumbnailWidth: 288,
         thumbnailHeight: 216,
     },
@@ -92,63 +92,63 @@ const IMAGES = [
 
 const IMAGESandro = [
     {
-        src: "gallery - 1.png",
-        thumbnail: "gallery - 1.png",
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 2.png",
-        thumbnail: "gallery - 2.png",
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 3.png",
-        thumbnail: "gallery - 3.png",
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 4.png",
-        thumbnail: "gallery - 4.png",
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 5.png",
-        thumbnail: "gallery - 5.png",
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
 
     {
-        src: "gallery - 6.png",
-        thumbnail: "gallery - 6.png",
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 7.png",
-        thumbnail: "gallery - 7.png",
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 8.png",
-        thumbnail: "gallery - 8.png",
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 9.png",
-        thumbnail: "gallery - 9.png",
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 10.png",
-        thumbnail: "gallery - 10.png",
+        src: "gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
         thumbnailWidth: 100,
         thumbnailHeight: 100,
     },
@@ -156,63 +156,63 @@ const IMAGESandro = [
 
 const IMAGESiphone678 = [
     {
-        src: "gallery - 1.png",
-        thumbnail: "gallery - 1.png",
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 2.png",
-        thumbnail: "gallery - 2.png",
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 3.png",
-        thumbnail: "gallery - 3.png",
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 4.png",
-        thumbnail: "gallery - 4.png",
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 5.png",
-        thumbnail: "gallery - 5.png",
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
 
     {
-        src: "gallery - 6.png",
-        thumbnail: "gallery - 6.png",
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 7.png",
-        thumbnail: "gallery - 7.png",
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 8.png",
-        thumbnail: "gallery - 8.png",
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 9.png",
-        thumbnail: "gallery - 9.png",
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 10.png",
-        thumbnail: "gallery - 10.png",
+        src: "gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
         thumbnailWidth: 185,
         thumbnailHeight: 100,
     },
@@ -220,63 +220,63 @@ const IMAGESiphone678 = [
 
 const IMAGESiphone12 = [
     {
-        src: "gallery - 1.png",
-        thumbnail: "gallery - 1.png",
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 2.png",
-        thumbnail: "gallery - 2.png",
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 3.png",
-        thumbnail: "gallery - 3.png",
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 4.png",
-        thumbnail: "gallery - 4.png",
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 5.png",
-        thumbnail: "gallery - 5.png",
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
 
     {
-        src: "gallery - 6.png",
-        thumbnail: "gallery - 6.png",
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 7.png",
-        thumbnail: "gallery - 7.png",
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 8.png",
-        thumbnail: "gallery - 8.png",
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 9.png",
-        thumbnail: "gallery - 9.png",
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 10.png",
-        thumbnail: "gallery - 10.png",
+        src: "gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
         thumbnailWidth: 195,
         thumbnailHeight: 100,
     },
@@ -284,63 +284,63 @@ const IMAGESiphone12 = [
 
 const IMAGESiphone678plus = [
     {
-        src: "gallery - 1.png",
-        thumbnail: "gallery - 1.png",
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 2.png",
-        thumbnail: "gallery - 2.png",
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 3.png",
-        thumbnail: "gallery - 3.png",
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 4.png",
-        thumbnail: "gallery - 4.png",
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 5.png",
-        thumbnail: "gallery - 5.png",
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
 
     {
-        src: "gallery - 6.png",
-        thumbnail: "gallery - 6.png",
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 7.png",
-        thumbnail: "gallery - 7.png",
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 8.png",
-        thumbnail: "gallery - 8.png",
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 9.png",
-        thumbnail: "gallery - 9.png",
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 10.png",
-        thumbnail: "gallery - 10.png",
+        src: "gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
@@ -348,63 +348,63 @@ const IMAGESiphone678plus = [
 
 const IMAGESiphone12promax = [
     {
-        src: "gallery - 1.png",
-        thumbnail: "gallery - 1.png",
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 2.png",
-        thumbnail: "gallery - 2.png",
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 3.png",
-        thumbnail: "gallery - 3.png",
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 4.png",
-        thumbnail: "gallery - 4.png",
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 5.png",
-        thumbnail: "gallery - 5.png",
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
 
     {
-        src: "gallery - 6.png",
-        thumbnail: "gallery - 6.png",
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 7.png",
-        thumbnail: "gallery - 7.png",
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 8.png",
-        thumbnail: "gallery - 8.png",
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 9.png",
-        thumbnail: "gallery - 9.png",
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
     {
-        src: "gallery - 10.png",
-        thumbnail: "gallery - 10.png",
+        src: "gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
         thumbnailWidth: 207,
         thumbnailHeight: 100,
     },
@@ -422,6 +422,39 @@ class Home extends Component {
         // title.innerHTML = "HOME";
     }
 
+    tileViewportStyle() {
+        if (this.props.tileViewportStyle)
+            return this.props.tileViewportStyle.call(this);
+        var nanoBase64Backgorund = {};
+        if (this.props.item.nano) {
+            nanoBase64Backgorund = {
+                background: `url(${this.props.item.nano})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+            };
+        }
+        if (this.props.item.isSelected)
+            return Object.assign(
+                {
+                    width: this.props.item.vwidth - 32,
+                    height: this.props.height - 32,
+                    margin: 16,
+                    overflow: "hidden",
+                    backgroundSize: "cover",
+                },
+                nanoBase64Backgorund
+            );
+        return Object.assign(
+            {
+                width: this.props.item.vwidth,
+                height: this.props.height,
+                overflow: "hidden",
+                backgroundSize: "cover",
+            },
+            nanoBase64Backgorund
+        );
+    }
+
     render() {
         return (
             <div
@@ -432,7 +465,7 @@ class Home extends Component {
             >
                 <section class="section-class-home-page">
                     <div class="bg-for-homepage">
-                        <img class="image-homepage" src="mainbanner.png"></img>
+                        <img class="image-homepage" src="mainbanner.jpg"></img>
                     </div>
                     <div class="text-homepage-contain">
                         <p class="textbox-homepage">
@@ -448,11 +481,15 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand1"
-                                    src="brands - 1.png"
+                                    src="brands - 1.jpg"
                                 ></img>
-                                {/* <p class="text-brand">Cafe Ruci</p> */}
+                                <p class="text-brand">Cafe Ruci</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand-flip1"
+                                    src="brands - 1.jpg"
+                                ></img>
                                 <p class="text-brand-flip">Cafe Ruci</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -479,11 +516,15 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand2"
-                                    src="/brands - 2.png"
+                                    src="/brands - 2.jpg"
                                 ></img>
-                                {/* <p class="text-brand">RUCI's Joint</p> */}
+                                <p class="text-brand">RUCI's Joint</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand-flip2"
+                                    src="brands - 2.jpg"
+                                ></img>
                                 <p class="text-brand-flip">RUCI's Joint</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -495,7 +536,7 @@ class Home extends Component {
                                     class="ig-brand"
                                     src="Instagram - White.png"
                                 ></img>
-                                <img class="next-brand" src="Frame.png"></img>
+                                {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
                     </div>
@@ -505,11 +546,15 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand3"
-                                    src="brands - 3.png"
+                                    src="brands - 3.jpg"
                                 ></img>
-                                {/* <p class="text-brand">Warget</p> */}
+                                <p class="text-brand">Warget</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand-flip3"
+                                    src="brands - 3.jpg"
+                                ></img>
                                 <p class="text-brand-flip">Warget</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -525,7 +570,7 @@ class Home extends Component {
                                         src="Instagram - White.png"
                                     ></img>
                                 </a>
-                                <img class="next-brand" src="Frame.png"></img>
+                                {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
                     </div>
@@ -535,11 +580,15 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand4"
-                                    src="brands - 4.png"
+                                    src="brands - 4.jpg"
                                 ></img>
-                                {/* <p class="text-brand">123</p> */}
+                                <p class="text-brand">123</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand-flip4"
+                                    src="brands - 4.jpg"
+                                ></img>
                                 <p class="text-brand-flip">123</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -550,7 +599,7 @@ class Home extends Component {
                                     class="ig-brand"
                                     src="Instagram - White.png"
                                 ></img>
-                                <img class="next-brand" src="Frame.png"></img>
+                                {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
                     </div>
@@ -560,11 +609,15 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand5"
-                                    src="brands - 5.png"
+                                    src="brands - 5.jpg"
                                 ></img>
-                                {/* <p class="text-brand">Rararamenbar</p> */}
+                                <p class="text-brand">Rararamenbar</p>
                             </div>
                             <div class="flip-card-back">
+                                <img
+                                    class="image-brand-flip5"
+                                    src="brands - 5.jpg"
+                                ></img>
                                 <p class="text-brand-flip">Rararamenbar</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
@@ -580,7 +633,7 @@ class Home extends Component {
                                         src="Instagram - White.png"
                                     ></img>
                                 </a>
-                                <img class="next-brand" src="Frame.png"></img>
+                                {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
                     </div>
@@ -768,6 +821,7 @@ class Home extends Component {
                             rowHeight={216}
                             id={"test122"}
                             // tagStyle={test1}
+                            // tileViewportStyle={this.tileViewportStyle}
                         />
                     </div>
                     <p class="text-field-1">LET’S BE</p>

@@ -1,14 +1,14 @@
 .section-class-home-page {
     position: relative;
     background-color: black;
-    /* height: 200vh; */
+    height: 100vh;
 }
 
 .bg-for-homepage {
     display: block;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .image-homepage {
@@ -83,13 +83,16 @@
 }
 
 .flip-card-front {
-    background-color: #bbb;
+    /* background-color: #bbb;   */
     color: black;
+}
+.flip-card-front:active {
+    display: none;
 }
 
 .flip-card-back {
     /* background-image: url("../../brand/brand\ -\ 1.png"); */
-    background-color: #707070;
+    /* background-color: #707070; */
     color: white;
     transform: rotateY(180deg);
 }
@@ -181,8 +184,15 @@
 .image-brand1 {
     width: 374px;
     height: 250px;
+    object-fit: cover;
 }
 
+.image-brand-flip1 {
+    width: 374px;
+    height: 250px;
+    opacity: 0.5;
+    object-fit: cover;
+}
 .contain-brand2 {
     display: block;
     position: absolute;
@@ -195,6 +205,13 @@
 .image-brand2 {
     width: 374px;
     height: 250px;
+    object-fit: cover;
+}
+.image-brand-flip2 {
+    width: 374px;
+    height: 250px;
+    opacity: 0.5;
+    object-fit: cover;
 }
 
 .contain-brand3 {
@@ -209,6 +226,14 @@
 .image-brand3 {
     width: 374px;
     height: 250px;
+    object-fit: cover;
+}
+
+.image-brand-flip3 {
+    width: 374px;
+    height: 250px;
+    opacity: 0.5;
+    object-fit: cover;
 }
 
 .contain-brand4 {
@@ -224,6 +249,14 @@
 .image-brand4 {
     width: 374px;
     height: 250px;
+    object-fit: cover;
+}
+
+.image-brand-flip4 {
+    width: 374px;
+    height: 250px;
+    opacity: 0.5;
+    object-fit: cover;
 }
 
 .contain-brand5 {
@@ -239,6 +272,14 @@
 .image-brand5 {
     width: 374px;
     height: 250px;
+    object-fit: cover;
+}
+
+.image-brand-flip5 {
+    width: 374px;
+    height: 250px;
+    opacity: 0.5;
+    object-fit: cover;
 }
 
 .section-class-event {
@@ -675,6 +716,13 @@
         height: 150px;
     }
 
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 300px;
+        height: 150px;
+        opacity: 0.5;
+    }
+
     .contain-brand2 {
         display: block;
         position: absolute;
@@ -688,6 +736,12 @@
         object-fit: cover;
         width: 300px;
         height: 150px;
+    }
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 300px;
+        height: 150px;
+        opacity: 0.5;
     }
 
     .contain-brand3 {
@@ -704,6 +758,12 @@
         width: 300px;
         height: 150px;
     }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 300px;
+        height: 150px;
+        opacity: 0.5;
+    }
 
     .contain-brand4 {
         display: block;
@@ -719,6 +779,12 @@
         width: 300px;
         height: 150px;
     }
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 300px;
+        height: 150px;
+        opacity: 0.5;
+    }
 
     .contain-brand5 {
         display: block;
@@ -733,6 +799,12 @@
         object-fit: cover;
         width: 300px;
         height: 150px;
+    }
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 300px;
+        height: 150px;
+        opacity: 0.5;
     }
 
     .section-class-event {
@@ -1112,6 +1184,12 @@
         height: 160px;
     }
 
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
+    }
     .contain-brand2 {
         display: block;
         position: absolute;
@@ -1125,6 +1203,12 @@
         object-fit: cover;
         width: 320px;
         height: 160px;
+    }
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
     }
 
     .contain-brand3 {
@@ -1141,6 +1225,12 @@
         width: 320px;
         height: 160px;
     }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
+    }
 
     .contain-brand4 {
         display: block;
@@ -1156,7 +1246,12 @@
         width: 320px;
         height: 160px;
     }
-
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
+    }
     .contain-brand5 {
         display: block;
         position: absolute;
@@ -1170,6 +1265,12 @@
         object-fit: cover;
         width: 320px;
         height: 160px;
+    }
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
     }
 
     .section-class-event {
@@ -1549,6 +1650,12 @@
         width: 320px;
         height: 160px;
     }
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
+    }
 
     .contain-brand2 {
         display: block;
@@ -1564,6 +1671,12 @@
         width: 320px;
         height: 160px;
     }
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
+    }
 
     .contain-brand3 {
         display: block;
@@ -1578,6 +1691,12 @@
         object-fit: cover;
         width: 320px;
         height: 160px;
+    }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
     }
 
     .contain-brand4 {
@@ -1595,6 +1714,12 @@
         height: 160px;
     }
 
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
+    }
     .contain-brand5 {
         display: block;
         position: absolute;
@@ -1608,6 +1733,12 @@
         object-fit: cover;
         width: 320px;
         height: 160px;
+    }
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 320px;
+        height: 160px;
+        opacity: 0.5;
     }
 
     .section-class-event {
@@ -1982,6 +2113,12 @@
         width: 340px;
         height: 170px;
     }
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 340px;
+        height: 170px;
+        opacity: 0.5;
+    }
 
     .contain-brand2 {
         display: block;
@@ -1997,7 +2134,12 @@
         width: 340px;
         height: 170px;
     }
-
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 340px;
+        height: 170px;
+        opacity: 0.5;
+    }
     .contain-brand3 {
         display: block;
         position: absolute;
@@ -2011,6 +2153,12 @@
         object-fit: cover;
         width: 340px;
         height: 170px;
+    }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 340px;
+        height: 170px;
+        opacity: 0.5;
     }
 
     .contain-brand4 {
@@ -2027,6 +2175,12 @@
         width: 340px;
         height: 170px;
     }
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 340px;
+        height: 170px;
+        opacity: 0.5;
+    }
 
     .contain-brand5 {
         display: block;
@@ -2041,6 +2195,12 @@
         object-fit: cover;
         width: 340px;
         height: 170px;
+    }
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 340px;
+        height: 170px;
+        opacity: 0.5;
     }
 
     .section-class-event {
@@ -2420,6 +2580,12 @@
         height: 180px;
     }
 
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
     .contain-brand2 {
         display: block;
         position: absolute;
@@ -2435,6 +2601,13 @@
         height: 180px;
     }
 
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
+
     .contain-brand3 {
         display: block;
         position: absolute;
@@ -2448,6 +2621,12 @@
         object-fit: cover;
         width: 360px;
         height: 180px;
+    }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
     }
 
     .contain-brand4 {
@@ -2465,6 +2644,12 @@
         height: 180px;
     }
 
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
     .contain-brand5 {
         display: block;
         position: absolute;
@@ -2480,6 +2665,12 @@
         height: 180px;
     }
 
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
     .section-class-event {
         width: 100vw;
         height: 65vh;
@@ -2858,6 +3049,12 @@
         width: 360px;
         height: 180px;
     }
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
 
     .contain-brand2 {
         display: block;
@@ -2873,7 +3070,12 @@
         width: 360px;
         height: 180px;
     }
-
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
     .contain-brand3 {
         display: block;
         position: absolute;
@@ -2887,6 +3089,12 @@
         object-fit: cover;
         width: 360px;
         height: 180px;
+    }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
     }
 
     .contain-brand4 {
@@ -2903,6 +3111,12 @@
         width: 360px;
         height: 180px;
     }
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
+    }
 
     .contain-brand5 {
         display: block;
@@ -2917,6 +3131,12 @@
         object-fit: cover;
         width: 360px;
         height: 180px;
+    }
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 360px;
+        height: 180px;
+        opacity: 0.5;
     }
 
     .section-class-event {
@@ -3297,6 +3517,12 @@
         width: 380px;
         height: 190px;
     }
+    .image-brand-flip1 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+        opacity: 0.5;
+    }
 
     .contain-brand2 {
         display: block;
@@ -3311,6 +3537,12 @@
         object-fit: cover;
         width: 380px;
         height: 190px;
+    }
+    .image-brand-flip2 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+        opacity: 0.5;
     }
 
     .contain-brand3 {
@@ -3327,6 +3559,12 @@
         width: 380px;
         height: 190px;
     }
+    .image-brand-flip3 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+        opacity: 0.5;
+    }
 
     .contain-brand4 {
         display: block;
@@ -3341,6 +3579,12 @@
         object-fit: cover;
         width: 380px;
         height: 190px;
+    }
+    .image-brand-flip4 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+        opacity: 0.5;
     }
 
     .contain-brand5 {
@@ -3358,6 +3602,12 @@
         height: 190px;
     }
 
+    .image-brand-flip5 {
+        object-fit: cover;
+        width: 380px;
+        height: 190px;
+        opacity: 0.5;
+    }
     .section-class-event {
         width: 100vw;
         height: 55vh;
