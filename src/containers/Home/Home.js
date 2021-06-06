@@ -499,6 +499,8 @@ class Home extends Component {
                                 <a
                                     class="ig-brand"
                                     href="https://www.instagram.com/caferuci/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <img
                                         class="ig-brand-logo"
@@ -564,6 +566,8 @@ class Home extends Component {
                                 <a
                                     class="ig-brand"
                                     href="https://www.instagram.com/wargetbahagia/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <img
                                         class="ig-brand-logo"
@@ -627,6 +631,8 @@ class Home extends Component {
                                 <a
                                     class="ig-brand"
                                     href="https://www.instagram.com/rararamenbar/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <img
                                         class="ig-brand-logo"
