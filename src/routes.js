@@ -1,15 +1,22 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, HashRouter } from "react-router-dom";
 import Home from "./containers/Home/Home.js";
 import About from "./containers/About/About.js";
 
+// const Routes = (props) => (
+//     <BrowserRouter>
+//         <Switch>
+//             <Route path="/about" component={About}></Route>
+//             <Route exact path="/" component={Home}></Route>
+//         </Switch>
+//     </BrowserRouter>
+// );
+
 const Routes = (props) => (
-    <BrowserRouter>
-        <Switch>
-            <Route path="/about" component={About}></Route>
-            <Route exact path="/" component={Home}></Route>
-        </Switch>
-    </BrowserRouter>
+    <HashRouter>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/" component={Home}></Route>
+    </HashRouter>
 );
 
 export default Routes;

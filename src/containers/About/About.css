@@ -461,3 +461,1419 @@
         top: 196px;
     }
 }
+
+/* iphone 6/7/8 */
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    .section-class-about-page {
+        height: 550px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 550px;
+    }
+
+    .text-aboutpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 222.5px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 50vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 90%;
+        height: 216px;
+        left: 5%;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 90%;
+        height: 40px;
+        left: 5%;
+        top: 250px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 55vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 6px;
+    }
+    .visi-text {
+        width: 90%;
+        height: 63px;
+        left: 5%;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 165px;
+    }
+    .misi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 166px;
+    }
+    .misi-text {
+        width: 90%;
+        height: 135px;
+        left: 5%;
+        top: 222px;
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 50vh;
+    }
+
+    .contact-details-text-page {
+        width: 70%;
+        height: 39px;
+        left: 15%;
+        top: 20px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 65%;
+        height: 0px;
+        left: 17.5%;
+        top: 86px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .email-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 120px;
+    }
+    .mail-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px; */
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 2px;
+    }
+    .email-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px; */
+        width: 162px;
+        height: 30px;
+        left: 15px;
+        top: 0px;
+    }
+    .telfon-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 135px;
+    }
+    .telfon-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px; */
+
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 20px;
+    }
+    .telfon-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px; */
+
+        width: 162px;
+        height: 30px;
+        left: 12px;
+        top: 0px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 38%;
+        top: 196px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 54%;
+        top: 196px;
+    }
+}
+
+/* iphone x */
+@media screen and (min-width: 375px) and (max-width: 413px) and (min-height: 812px) {
+    .section-class-about-page {
+        height: 600px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+    .text-aboutpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 247.5px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 40vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 90%;
+        height: 216px;
+        left: 5%;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 90%;
+        height: 40px;
+        left: 5%;
+        top: 250px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 45vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 6px;
+    }
+    .visi-text {
+        width: 90%;
+        height: 63px;
+        left: 5%;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 165px;
+    }
+    .misi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 166px;
+    }
+    .misi-text {
+        width: 90%;
+        height: 135px;
+        left: 5%;
+        top: 222px;
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 35vh;
+    }
+
+    .contact-details-text-page {
+        width: 70%;
+        height: 39px;
+        left: 15%;
+        top: 20px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 65%;
+        height: 0px;
+        left: 17.5%;
+        top: 86px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .email-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 120px;
+    }
+    .mail-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px; */
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 2px;
+    }
+    .email-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px; */
+        width: 162px;
+        height: 30px;
+        left: 15px;
+        top: 0px;
+    }
+    .telfon-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 135px;
+    }
+    .telfon-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px; */
+
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 20px;
+    }
+    .telfon-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px; */
+
+        width: 162px;
+        height: 30px;
+        left: 12px;
+        top: 0px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 38%;
+        top: 196px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 54%;
+        top: 196px;
+    }
+}
+
+/* iphone 12 */
+@media screen and (min-width: 390px) and (max-width: 413px) and (min-height: 844px) {
+    .section-class-about-page {
+        height: 600px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+    .text-aboutpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 245px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 45vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 90%;
+        height: 216px;
+        left: 5%;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 90%;
+        height: 40px;
+        left: 5%;
+        top: 28 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 45vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 0px;
+    }
+    .visi-text {
+        width: 90%;
+        height: 63px;
+        left: 5%;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 165px;
+    }
+    .misi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 166px;
+    }
+    .misi-text {
+        width: 90%;
+        height: 135px;
+        left: 5%;
+        top: 222px;
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 35vh;
+    }
+
+    .contact-details-text-page {
+        width: 70%;
+        height: 39px;
+        left: 15%;
+        top: 20px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 65%;
+        height: 0px;
+        left: 17.5%;
+        top: 86px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .email-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 120px;
+    }
+    .mail-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px; */
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 2px;
+    }
+    .email-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px; */
+        width: 162px;
+        height: 30px;
+        left: 15px;
+        top: 0px;
+    }
+    .telfon-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 135px;
+    }
+    .telfon-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px; */
+
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 20px;
+    }
+    .telfon-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px; */
+
+        width: 162px;
+        height: 30px;
+        left: 12px;
+        top: 0px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 39%;
+        top: 196px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 53%;
+        top: 196px;
+    }
+}
+
+/* iphone 6/7/8 plus */
+@media screen and (min-width: 414px) and (max-width: 719px) {
+    .section-class-about-page {
+        height: 630px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 630px;
+    }
+
+    .text-aboutpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 260px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 45vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 90%;
+        height: 216px;
+        left: 5%;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 90%;
+        height: 40px;
+        left: 5%;
+        top: 280px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 50vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 0px;
+    }
+    .visi-text {
+        width: 90%;
+        height: 63px;
+        left: 5%;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 165px;
+    }
+    .misi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 166px;
+    }
+    .misi-text {
+        width: 90%;
+        height: 135px;
+        left: 5%;
+        top: 222px;
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 40vh;
+    }
+
+    .contact-details-text-page {
+        width: 70%;
+        height: 39px;
+        left: 15%;
+        top: 30px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 65%;
+        height: 0px;
+        left: 17.5%;
+        top: 96px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .email-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 130px;
+    }
+    .mail-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px; */
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 2px;
+    }
+    .email-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px; */
+        width: 162px;
+        height: 30px;
+        left: 15px;
+        top: 0px;
+    }
+    .telfon-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 145px;
+    }
+    .telfon-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px; */
+
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 20px;
+    }
+    .telfon-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px; */
+
+        width: 162px;
+        height: 30px;
+        left: 12px;
+        top: 0px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 39%;
+        top: 206px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 53%;
+        top: 206px;
+    }
+}
+
+/* iphone xr */
+@media screen and (min-width: 414px) and (max-width: 767px) and (min-height: 896px) {
+    .section-class-about-page {
+        height: 730px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 730px;
+    }
+
+    .text-aboutpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 310px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 40vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 90%;
+        height: 216px;
+        left: 5%;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 90%;
+        height: 40px;
+        left: 5%;
+        top: 280px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 45vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 0px;
+    }
+    .visi-text {
+        width: 90%;
+        height: 63px;
+        left: 5%;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 165px;
+    }
+    .misi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 166px;
+    }
+    .misi-text {
+        width: 90%;
+        height: 135px;
+        left: 5%;
+        top: 222px;
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 35vh;
+    }
+
+    .contact-details-text-page {
+        width: 70%;
+        height: 39px;
+        left: 15%;
+        top: 30px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 65%;
+        height: 0px;
+        left: 17.5%;
+        top: 96px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .email-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 130px;
+    }
+    .mail-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px; */
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 2px;
+    }
+    .email-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px; */
+        width: 162px;
+        height: 30px;
+        left: 15px;
+        top: 0px;
+    }
+    .telfon-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 145px;
+    }
+    .telfon-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px; */
+
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 20px;
+    }
+    .telfon-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px; */
+
+        width: 162px;
+        height: 30px;
+        left: 12px;
+        top: 0px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 39%;
+        top: 206px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 53%;
+        top: 206px;
+    }
+}
+
+/* iphone 12 pro max */
+@media screen and (min-width: 428px) and (max-width: 767px) and (min-height: 926px) {
+    .section-class-about-page {
+        height: 830px;
+    }
+    .bg-for-aboutpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-aboutpage {
+        object-fit: cover;
+        width: 100%;
+        height: 830px;
+    }
+
+    .text-aboutpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 360px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-company-profile-page {
+        height: 40vh;
+    }
+
+    .company-profiletext-aboutpage {
+        width: 90%;
+        height: 216px;
+        left: 5%;
+        top: 0px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .button-company-profile-text {
+        width: 90%;
+        height: 40px;
+        left: 5%;
+        top: 310px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .section-class-visi-misi-page {
+        height: 45vh;
+    }
+
+    .visi-misi-title {
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .visi-misi-text {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 21px */
+
+        letter-spacing: 0.02em;
+    }
+    .visi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 0px;
+    }
+    .visi-text {
+        width: 90%;
+        height: 63px;
+        left: 5%;
+        top: 62px;
+        text-align: left;
+    }
+    .visi-misi-garis {
+        width: 90vw;
+        height: 1px;
+        left: 5vw;
+        top: 185px;
+    }
+    .misi-title {
+        width: 20%;
+        height: 36px;
+        left: 40%;
+        top: 166px;
+    }
+    .misi-text {
+        width: 90%;
+        height: 135px;
+        left: 5%;
+        top: 222px;
+        text-align: left;
+    }
+
+    .section-class-contact-details-page {
+        height: 35vh;
+    }
+
+    .contact-details-text-page {
+        width: 70%;
+        height: 39px;
+        left: 15%;
+        top: 30px;
+
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 39px */
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+    .contact-details-garis-page {
+        width: 65%;
+        height: 0px;
+        left: 17.5%;
+        top: 96px;
+        border: 1px solid #000000;
+    }
+
+    .text-contact-details {
+        /* font-family: Inter; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .email-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 130px;
+    }
+    .mail-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 120px; */
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 2px;
+    }
+    .email-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 118px; */
+        width: 162px;
+        height: 30px;
+        left: 15px;
+        top: 0px;
+    }
+    .telfon-contain-contact-details {
+        position: absolute;
+        width: 43%;
+        left: 28.5%;
+        top: 145px;
+    }
+    .telfon-contact-details-logo {
+        /* width: 24px;
+        height: 24px;
+        left: 102px;
+        top: 155px; */
+
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 20px;
+    }
+    .telfon-contact-details {
+        /* width: 162px;
+        height: 30px;
+        left: 117px;
+        top: 136px; */
+
+        width: 162px;
+        height: 30px;
+        left: 12px;
+        top: 0px;
+    }
+
+    .ig-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 39%;
+        top: 206px;
+    }
+    .fb-contact-details-logo {
+        width: 24px;
+        height: 24px;
+        left: 53%;
+        top: 206px;
+    }
+}

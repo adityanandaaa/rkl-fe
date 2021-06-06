@@ -21,7 +21,10 @@ class Navbars extends Component {
                         />
                     </Navbar.Brand>
                     {/* <Nav className="mr-auto"> */}
-                    <Nav.Link className="text-navbar home-navbar" href="/about">
+                    <Nav.Link
+                        className="text-navbar home-navbar"
+                        href="#/about"
+                    >
                         ABOUT
                     </Nav.Link>
                     <Nav.Link

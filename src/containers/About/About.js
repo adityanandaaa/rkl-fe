@@ -64,7 +64,7 @@ class About extends Component {
                 <section class="section-class-contact-details-page">
                     <p class="contact-details-text-page">Our Contact Details</p>
                     <div class="contact-details-garis-page"></div>
-                    <div>
+                    <div class="email-contain-contact-details">
                         <img
                             class="mail-contact-details-logo"
                             src="Email - Black.png"
@@ -85,7 +85,7 @@ class About extends Component {
                             </a>
                         </p>
                     </div>
-                    <div>
+                    <div class="telfon-contain-contact-details">
                         <img
                             class="telfon-contact-details-logo"
                             src="Phone - Black.png"
