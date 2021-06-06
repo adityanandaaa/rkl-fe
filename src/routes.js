@@ -6,7 +6,7 @@ import About from "./containers/About/About.js";
 const Routes = (props) => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/about" component={About}></Route>
+            <Route path="/about" component={About}></Route>
             <Route exact path="/" component={Home}></Route>
         </Switch>
     </BrowserRouter>

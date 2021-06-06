@@ -13,7 +13,7 @@ class Navbars extends Component {
         return (
             <div>
                 <Navbar className="navbar-contain" bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <img
                             alt=""
                             src="Logo.png"
@@ -21,7 +21,7 @@ class Navbars extends Component {
                         />
                     </Navbar.Brand>
                     {/* <Nav className="mr-auto"> */}
-                    <Nav.Link className="text-navbar home-navbar" href="#home">
+                    <Nav.Link className="text-navbar home-navbar" href="/about">
                         ABOUT
                     </Nav.Link>
                     <Nav.Link
