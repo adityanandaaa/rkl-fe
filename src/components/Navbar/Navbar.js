@@ -29,13 +29,13 @@ class Navbars extends Component {
                     </Nav.Link>
                     <Nav.Link
                         className="text-navbar brands-navbar"
-                        href="#features"
+                        href="#/brand"
                     >
                         BRANDS
                     </Nav.Link>
                     <Nav.Link
                         className="text-navbar career-navbar"
-                        href="#pricing"
+                        href="#/career"
                     >
                         CAREER
                     </Nav.Link>

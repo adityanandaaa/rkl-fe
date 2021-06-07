@@ -508,7 +508,7 @@ class Home extends Component {
                                     ></img>
                                 </a>
 
-                                <img class="next-brand" src="Frame.png"></img>
+                                {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
                     </div>
@@ -647,7 +647,10 @@ class Home extends Component {
 
                 <section class="section-class-event">
                     <p class="event-promo-title">EVENT & PROMO</p>
-                    <div class="garis-event"></div>
+
+                    <img class="image-comingsoon" src="coming - soon.png"></img>
+
+                    {/* <div class="garis-event"></div>
                     <div class="carousel-event-promo">
                         <Carousel
                             swipeable={false}
@@ -745,12 +748,13 @@ class Home extends Component {
                                     </p>
                                 </div>
                             </div>
-                        </Carousel>
-                    </div>
+                        </Carousel> 
+                    </div>*/}
                 </section>
                 <section class="section-class-gallery">
                     <p class="gallery-title">GALLERY</p>
-                    <div class="garis-gallery"></div>
+                    <img class="image-comingsoon" src="coming - soon.png"></img>
+                    {/* <div class="garis-gallery"></div>
                     <div class="gallery-row-andro">
                         <Gallery
                             images={IMAGESandro}
@@ -839,9 +843,8 @@ class Home extends Component {
                             placeholder="Enter your phone number/email"
                         />
                         <button class="button-email-text">Send</button>
-                    </form>
+                    </form> */}
                 </section>
-                {/* <Footers></Footers> */}
             </div>
         );
     }

@@ -284,8 +284,29 @@
 
 .section-class-event {
     position: relative;
-    background-color: white;
+    /* background-color: white; */
+    background-color: #d8dcd8;
+
+    /* height: auto; */
+    height: 100vh;
+}
+
+.section-class-comingsoon {
+    position: relative;
+    /* background-color: white; */
+    background-color: #d8dcd8;
+
+    /* height: auto; */
+    height: 100vh;
+}
+.image-comingsoon {
+    position: absolute;
+    object-fit: fill;
+    top: 0%;
+    width: 100vw;
     height: auto;
+    left: 0px;
+    /* opacity: 0.3;     */
 }
 .carousel-event-promo {
     padding-top: 120px;
@@ -306,6 +327,7 @@
     text-align: center;
 
     color: #000000;
+    z-index: 3;
 }
 
 .garis-event {
@@ -406,9 +428,12 @@
 }
 
 .section-class-gallery {
-    position: relative;
+    /* position: relative;
     background-color: white;
-    height: 110vh;
+    height: 110vh; */
+    position: relative;
+    background-color: #d8dcd8;
+    height: 100vh;
 }
 .gallery-title {
     position: absolute;
@@ -428,6 +453,7 @@
     letter-spacing: 0.02em;
 
     color: #000000;
+    z-index: 3;
 }
 
 .garis-gallery {

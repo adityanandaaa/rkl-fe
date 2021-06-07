@@ -21,21 +21,31 @@ class Footers extends Component {
                         lass="email-footer text-footer"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="mailto:hello@rkl.co.id"
+                        href="mailto:info@rklokal.com"
                         style={{ textDecoration: "none", color: "inherit" }}
                     >
-                        hello@rkl.co.id
+                        info@rklokal.com
                     </a>
                 </p>
                 <div class="link-column">
                     <div class="text-footer">
-                        <p class="text-link home-text">Home</p>
-                        <p class="text-link brand-text">Brand</p>
-                        <p class="text-link career-text">Career</p>
+                        <a href="#/">
+                            <p class="text-link home-text">Home</p>
+                        </a>
+                        <a href="#/brand">
+                            <p class="text-link brand-text">Brand</p>
+                        </a>
+                        <a href="#/career">
+                            <p class="text-link career-text">Career</p>
+                        </a>
                     </div>
                     <div class="text-footer">
-                        <p class="text-link about-text">About</p>
-                        <p class="text-link gallery-text">Gallery</p>
+                        <a href="#/about">
+                            <p class="text-link about-text">About</p>
+                        </a>
+                        <a href="#/">
+                            <p class="text-link gallery-text">Gallery</p>
+                        </a>
                         {/* <div class="footer-logo-socmed"> */}
                         <img
                             class="ig-footer-logo"
