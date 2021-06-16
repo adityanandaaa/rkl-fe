@@ -1,7 +1,7 @@
 .section-class-footer {
     position: relative;
     background: black;
-    height: 390px;
+    height: 380px;
 }
 
 .image-footer-logo {
@@ -24,10 +24,10 @@
     position: absolute;
     width: 681px;
     height: 66px;
-    left: 9.65%;
-    right: 39.58%;
-    top: 28.21%;
-    bottom: 54.87%;
+    left: 139px;
+
+    top: 90px;
+
     text-align: left;
 
     font-weight: 300;
@@ -42,10 +42,8 @@
     position: absolute;
     width: 178px;
     height: 36px;
-    left: 9.65%;
-    right: 77.99%;
-    top: 56.41%;
-    /* bottom: 34.36%; */
+    left: 139px;
+    top: 190px;
     text-align: left;
 
     font-weight: 300;
@@ -64,7 +62,7 @@
 .home-text {
     position: absolute;
     left: 962px;
-    top: 110px;
+    top: 85px;
 
     /* left: 66.81%;
     right: 27.78%;
@@ -75,7 +73,7 @@
     position: absolute;
 
     left: 961px;
-    top: 164px;
+    top: 139px;
 
     /* left: 66.74%;
     right: 27.78%;
@@ -85,7 +83,7 @@
 .career-text {
     position: absolute;
     left: 961px;
-    top: 218px;
+    top: 193px;
 
     /* left: 66.74%;
     right: 26.46%;
@@ -95,7 +93,7 @@
 .about-text {
     position: absolute;
     left: 1110px;
-    top: 110px;
+    top: 85px;
 
     /* left: 77.08%;
     right: 17.36%;
@@ -105,7 +103,7 @@
 .gallery-text {
     position: absolute;
     left: 1110px;
-    top: 164px;
+    top: 139px;
 
     /* left: 77.08%;
     right: 16.39%;
@@ -120,7 +118,7 @@
     height: 32px;
     width: 32px;
     left: 1110px;
-    top: 247px;
+    top: 222px;
 
     /* left: 77.08%;
     right: 20.69%;
@@ -132,7 +130,7 @@
     height: 32px;
     width: 32px;
     left: 1162px;
-    top: 247px;
+    top: 222px;
 
     /* left: 80.69%;
     right: 17.08%;
@@ -158,7 +156,7 @@
     height: 0px;
     width: 1162px;
     left: 139px;
-    top: 307px;
+    top: 277px;
     border-radius: nullpx;
 
     /* left: 9.65%;
@@ -172,10 +170,8 @@
 .copyright-footer {
     position: absolute;
     color: #ffffff;
-    left: 9.65%;
-    right: 80.21%;
-    top: 81.28%;
-    /* bottom: 12.56%; */
+    left: 139px;
+    top: 290px;
 
     font-style: normal;
     font-weight: normal;
@@ -1105,65 +1101,71 @@
 /* 1280 x 720 */
 @media screen and (min-width: 1280px) and (max-width: 1365px) and (min-height: 719px) {
     .section-class-footer {
-        height: 390px;
+        height: 380px;
     }
 
     .image-footer-logo {
         height: 50px;
         width: 50px;
-        left: 10%;
-        top: 15%;
+        left: 99px;
+        top: 50px;
         border-radius: 0px;
+    }
+
+    .text-footer {
+        color: #ffffff;
     }
 
     .desc-footer {
         width: 681px;
         height: 66px;
-        left: 10%;
-        right: 0%;
-        top: 28.21%;
-        bottom: 54.87%;
+        left: 99px;
+        top: 90px;
 
         font-weight: 300;
         font-size: 22px;
         line-height: 150%;
+        /* or 33px */
+
         letter-spacing: 0.02em;
     }
 
     .email-footer {
         width: 178px;
         height: 36px;
-        left: 10;
-        right: 77.99%;
-        top: 56.41%;
+        left: 99px;
+        top: 190px;
 
         font-weight: 300;
         font-size: 24px;
         line-height: 150%;
+        /* identical to box height, or 36px */
+
         letter-spacing: 0.02em;
     }
 
     .link-column {
+        text-align: left;
     }
     .home-text {
-        left: 73%;
-        top: 28%;
+        left: 922px;
+        top: 85px;
     }
     .brand-text {
-        left: 73%;
-        top: 40%;
+        left: 921px;
+        top: 139px;
     }
     .career-text {
-        left: 73%;
-        top: 53%;
+        left: 921px;
+        top: 193px;
     }
     .about-text {
-        left: 85%;
-        top: 28%;
+        left: 1070px;
+        top: 85px;
     }
     .gallery-text {
-        left: 85%;
-        top: 40%;
+        left: 1070px;
+        top: 139px;
     }
     .footer-logo-socmed {
     }
@@ -1171,14 +1173,14 @@
     .ig-footer-logo {
         height: 32px;
         width: 32px;
-        left: 85%;
-        top: 61%;
+        left: 1070px;
+        top: 222px;
     }
     .fb-footer-logo {
         height: 32px;
         width: 32px;
-        left: 89%;
-        top: 61%;
+        left: 1122px;
+        top: 222px;
     }
 
     .text-link {
@@ -1186,94 +1188,100 @@
         font-weight: normal;
         font-size: 26px;
         line-height: 150%;
+        /* identical to box height, or 39px */
 
         letter-spacing: 0.02em;
     }
 
     .garis-footer {
-        position: absolute;
         height: 0px;
-        width: 1050px;
-        left: 10%;
-        top: 307px;
-        border-radius: nullpx;
-
-        border: 1px solid #ffffff;
+        width: 1102px;
+        left: 99px;
+        top: 277px;
     }
 
     .copyright-footer {
-        position: absolute;
-        color: #ffffff;
-        width: 50%;
-        left: 9.65%;
-        right: 80.21%;
-        top: 81.28%;
-        /* bottom: 12.56%; */
+        left: 99px;
+        top: 290px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
     }
 }
 
 /* 1366 x 768 */
 @media screen and (min-width: 1366px) and (max-width: 1439px) {
     .section-class-footer {
-        height: 390px;
+        height: 380px;
     }
 
     .image-footer-logo {
         height: 50px;
         width: 50px;
-        left: 10%;
-        top: 15%;
+        left: 99px;
+        top: 50px;
         border-radius: 0px;
+    }
+
+    .text-footer {
+        color: #ffffff;
     }
 
     .desc-footer {
         width: 681px;
         height: 66px;
-        left: 10%;
-        right: 0%;
-        top: 28.21%;
-        bottom: 54.87%;
+        left: 99px;
+        top: 90px;
 
         font-weight: 300;
         font-size: 22px;
         line-height: 150%;
+        /* or 33px */
+
         letter-spacing: 0.02em;
     }
 
     .email-footer {
         width: 178px;
         height: 36px;
-        left: 10;
-        right: 77.99%;
-        top: 56.41%;
+        left: 99px;
+        top: 190px;
 
         font-weight: 300;
         font-size: 24px;
         line-height: 150%;
+        /* identical to box height, or 36px */
+
         letter-spacing: 0.02em;
     }
 
     .link-column {
+        text-align: left;
     }
     .home-text {
-        left: 73%;
-        top: 28%;
+        left: 922px;
+        top: 85px;
     }
     .brand-text {
-        left: 73%;
-        top: 40%;
+        left: 921px;
+        top: 139px;
     }
     .career-text {
-        left: 73%;
-        top: 53%;
+        left: 921px;
+        top: 193px;
     }
     .about-text {
-        left: 85%;
-        top: 28%;
+        left: 1070px;
+        top: 85px;
     }
     .gallery-text {
-        left: 85%;
-        top: 40%;
+        left: 1070px;
+        top: 139px;
     }
     .footer-logo-socmed {
     }
@@ -1281,14 +1289,14 @@
     .ig-footer-logo {
         height: 32px;
         width: 32px;
-        left: 85%;
-        top: 61%;
+        left: 1070px;
+        top: 222px;
     }
     .fb-footer-logo {
         height: 32px;
         width: 32px;
-        left: 89%;
-        top: 61%;
+        left: 1122px;
+        top: 222px;
     }
 
     .text-link {
@@ -1296,93 +1304,100 @@
         font-weight: normal;
         font-size: 26px;
         line-height: 150%;
+        /* identical to box height, or 39px */
 
         letter-spacing: 0.02em;
     }
 
     .garis-footer {
-        position: absolute;
         height: 0px;
-        width: 1150px;
-        left: 10%;
-        top: 307px;
-
-        border: 1px solid #ffffff;
+        width: 1102px;
+        left: 99px;
+        top: 277px;
     }
 
     .copyright-footer {
-        position: absolute;
-        color: #ffffff;
-        width: 50%;
-        left: 9.65%;
-        right: 80.21%;
-        top: 81.28%;
-        /* bottom: 12.56%; */
+        left: 99px;
+        top: 290px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
     }
 }
 
 /* 1536 x 864 */
 @media screen and (min-width: 1536px) and (max-width: 1599px) {
     .section-class-footer {
-        height: 390px;
+        height: 380px;
     }
 
     .image-footer-logo {
-        height: 60px;
-        width: 60px;
-        left: 10%;
-        top: 15%;
+        height: 55px;
+        width: 55px;
+        left: 129px;
+        top: 50px;
         border-radius: 0px;
     }
 
+    .text-footer {
+        color: #ffffff;
+    }
+
     .desc-footer {
-        width: 681px;
+        width: 721px;
         height: 66px;
-        left: 10%;
-        right: 0%;
-        top: 32 0.21%;
-        bottom: 54.87%;
+        left: 129px;
+        top: 90px;
 
         font-weight: 300;
-        font-size: 24px;
+        font-size: 26px;
         line-height: 150%;
+        /* or 33px */
+
         letter-spacing: 0.02em;
     }
 
     .email-footer {
         width: 178px;
         height: 36px;
-        left: 10;
-        right: 77.99%;
-        top: 56.41%;
+        left: 129px;
+        top: 190px;
 
         font-weight: 300;
-        font-size: 24px;
+        font-size: 28px;
         line-height: 150%;
+        /* identical to box height, or 36px */
+
         letter-spacing: 0.02em;
     }
 
     .link-column {
+        text-align: left;
     }
     .home-text {
-        left: 70%;
-        top: 28%;
+        left: 1002px;
+        top: 80px;
     }
     .brand-text {
-        left: 70%;
-        top: 40%;
+        left: 1002px;
+        top: 134px;
     }
     .career-text {
-        left: 70%;
-        top: 53%;
+        left: 1002px;
+        top: 188px;
     }
     .about-text {
-        left: 82%;
-        top: 28%;
+        left: 1170px;
+        top: 80px;
     }
     .gallery-text {
-        left: 82%;
-        top: 40%;
+        left: 1170px;
+        top: 134px;
     }
     .footer-logo-socmed {
     }
@@ -1390,108 +1405,115 @@
     .ig-footer-logo {
         height: 32px;
         width: 32px;
-        left: 82%;
-        top: 61%;
+        left: 1170px;
+        top: 227px;
     }
     .fb-footer-logo {
         height: 32px;
         width: 32px;
-        left: 86%;
-        top: 61%;
+        left: 1235px;
+        top: 227px;
     }
 
     .text-link {
         font-style: normal;
         font-weight: normal;
-        font-size: 26px;
+        font-size: 30px;
         line-height: 150%;
+        /* identical to box height, or 39px */
 
         letter-spacing: 0.02em;
     }
 
     .garis-footer {
-        position: absolute;
         height: 0px;
-        width: 1230px;
-        left: 10%;
-        top: 307px;
-
-        border: 1px solid #ffffff;
+        width: 1252px;
+        left: 129px;
+        top: 287px;
     }
 
     .copyright-footer {
-        position: absolute;
-        color: #ffffff;
-        width: 50%;
-        left: 9.65%;
-        right: 80.21%;
-        top: 81.28%;
-        /* bottom: 12.56%; */
+        left: 129px;
+        top: 290px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
     }
 }
 
 /* 1600 x 900 */
 @media screen and (min-width: 1600px) and (max-width: 1601px) {
     .section-class-footer {
-        height: 390px;
+        height: 430px;
     }
 
     .image-footer-logo {
-        height: 60px;
-        width: 60px;
-        left: 10%;
-        top: 15%;
+        height: 55px;
+        width: 55px;
+        left: 129px;
+        top: 50px;
         border-radius: 0px;
     }
 
+    .text-footer {
+        color: #ffffff;
+    }
+
     .desc-footer {
-        width: 681px;
+        width: 801px;
         height: 66px;
-        left: 10%;
-        right: 0%;
-        top: 34.21%;
-        bottom: 54.87%;
+        left: 129px;
+        top: 100px;
 
         font-weight: 300;
-        font-size: 24px;
+        font-size: 28px;
         line-height: 150%;
+        /* or 33px */
+
         letter-spacing: 0.02em;
     }
 
     .email-footer {
         width: 178px;
         height: 36px;
-        left: 10;
-        right: 77.99%;
-        top: 56.41%;
+        left: 129px;
+        top: 210px;
 
         font-weight: 300;
-        font-size: 24px;
+        font-size: 30px;
         line-height: 150%;
+        /* identical to box height, or 36px */
+
         letter-spacing: 0.02em;
     }
 
     .link-column {
+        text-align: left;
     }
     .home-text {
-        left: 70%;
-        top: 28%;
+        left: 1072px;
+        top: 90px;
     }
     .brand-text {
-        left: 70%;
-        top: 40%;
+        left: 1072px;
+        top: 154px;
     }
     .career-text {
-        left: 70%;
-        top: 53%;
+        left: 1072px;
+        top: 218px;
     }
     .about-text {
-        left: 82%;
-        top: 28%;
+        left: 1240px;
+        top: 90px;
     }
     .gallery-text {
-        left: 82%;
-        top: 40%;
+        left: 1240px;
+        top: 154px;
     }
     .footer-logo-socmed {
     }
@@ -1499,152 +1521,159 @@
     .ig-footer-logo {
         height: 32px;
         width: 32px;
-        left: 82%;
-        top: 61%;
+        left: 1240px;
+        top: 257px;
     }
     .fb-footer-logo {
         height: 32px;
         width: 32px;
-        left: 85.5%;
-        top: 61%;
+        left: 1305px;
+        top: 257px;
     }
 
     .text-link {
         font-style: normal;
         font-weight: normal;
-        font-size: 26px;
+        font-size: 32px;
         line-height: 150%;
+        /* identical to box height, or 39px */
 
         letter-spacing: 0.02em;
     }
 
     .garis-footer {
-        position: absolute;
         height: 0px;
-        width: 1250px;
-        left: 9.5%;
-        top: 307px;
-
-        border: 1px solid #ffffff;
+        width: 1352px;
+        left: 129px;
+        top: 317px;
     }
 
     .copyright-footer {
-        position: absolute;
-        color: #ffffff;
-        width: 50%;
-        left: 9.65%;
-        right: 80.21%;
-        top: 81.28%;
-        /* bottom: 12.56%; */
+        left: 129px;
+        top: 340px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
     }
 }
 
 /* 1920 x 1080 */
 @media screen and (min-width: 1920px) and (max-width: 1921px) {
     .section-class-footer {
-        height: 390px;
+        height: 430px;
     }
 
     .image-footer-logo {
-        height: 60px;
-        width: 60px;
-        left: 10%;
-        top: 15%;
+        height: 65px;
+        width: 65px;
+        left: 129px;
+        top: 50px;
         border-radius: 0px;
     }
 
+    .text-footer {
+        color: #ffffff;
+    }
+
     .desc-footer {
-        width: 721px;
+        width: 901px;
         height: 66px;
-        left: 10%;
-        right: 0%;
-        top: 34.21%;
-        bottom: 54.87%;
+        left: 129px;
+        top: 100px;
 
         font-weight: 300;
-        font-size: 26px;
+        font-size: 32px;
         line-height: 150%;
+        /* or 33px */
+
         letter-spacing: 0.02em;
     }
 
     .email-footer {
         width: 178px;
         height: 36px;
-        left: 10;
-        right: 0%;
-        top: 56.41%;
+        left: 129px;
+        top: 210px;
 
         font-weight: 300;
-        font-size: 26px;
+        font-size: 34px;
         line-height: 150%;
+        /* identical to box height, or 36px */
+
         letter-spacing: 0.02em;
     }
 
     .link-column {
+        text-align: left;
     }
     .home-text {
-        left: 70%;
-        top: 28%;
+        left: 1322px;
+        top: 90px;
     }
     .brand-text {
-        left: 70%;
-        top: 40%;
+        left: 1322px;
+        top: 154px;
     }
     .career-text {
-        left: 70%;
-        top: 53%;
+        left: 1322px;
+        top: 218px;
     }
     .about-text {
-        left: 82%;
-        top: 28%;
+        left: 1540px;
+        top: 90px;
     }
     .gallery-text {
-        left: 82%;
-        top: 40%;
+        left: 1540px;
+        top: 154px;
     }
     .footer-logo-socmed {
     }
 
     .ig-footer-logo {
-        height: 32px;
-        width: 32px;
-        left: 82%;
-        top: 61%;
+        height: 40px;
+        width: 40px;
+        left: 1540px;
+        top: 257px;
     }
     .fb-footer-logo {
-        height: 32px;
-        width: 32px;
-        left: 85.5%;
-        top: 61%;
+        height: 40px;
+        width: 40px;
+        left: 1605px;
+        top: 257px;
     }
 
     .text-link {
         font-style: normal;
         font-weight: normal;
-        font-size: 28px;
+        font-size: 36px;
         line-height: 150%;
+        /* identical to box height, or 39px */
 
         letter-spacing: 0.02em;
     }
 
     .garis-footer {
-        position: absolute;
         height: 0px;
-        width: 1550px;
-        left: 9.5%;
-        top: 307px;
-
-        border: 1px solid #ffffff;
+        width: 1632px;
+        left: 129px;
+        top: 337px;
     }
 
     .copyright-footer {
-        position: absolute;
-        color: #ffffff;
-        width: 50%;
-        left: 9.65%;
-        right: 80.21%;
-        top: 81.28%;
-        font-size: 18px;
-        /* bottom: 12.56%; */
+        left: 129px;
+        top: 340px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
     }
 }

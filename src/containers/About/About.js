@@ -44,14 +44,14 @@ class About extends Component {
                 </section>
 
                 <section class="section-class-visi-misi-page">
-                    <p class="visi-title visi-misi-title">Visi</p>
+                    <p class="visi-title visi-misi-title">Vision</p>
                     <p class="visi-text visi-misi-text">
                         Ruci Kebanggaan Lokal as a company that provides
                         contemporary lifestyle concept conforming Indonesian
                         culture
                     </p>
                     <div class="visi-misi-garis"></div>
-                    <p class="misi-title visi-misi-title">Misi</p>
+                    <p class="misi-title visi-misi-title">Mission</p>
                     <ul class="misi-text visi-misi-text">
                         <li>
                             To retain outlets in big cities and tourism hotspots
@@ -74,7 +74,22 @@ class About extends Component {
                     </ul>
                     <p class="misi-text visi-misi-text"></p>
                 </section>
-                <section class="section-class-contact-details-page">
+                <section
+                    class="section-class-contact-details-page"
+                    // style={{
+                    //     backgroundImage: "url(contactbackground.png)",
+                    //     backgroundSize: "cover",
+                    // }}
+                >
+                    <img
+                        class="image-contact-section"
+                        src="contactbackground.png"
+                    ></img>
+                    <img
+                        class="image-contact-section-mobile"
+                        src="contact background - mobile.png"
+                    ></img>
+
                     <p class="contact-details-text-page">Our Contact Details</p>
                     <div class="contact-details-garis-page"></div>
                     <div class="email-contain-contact-details">

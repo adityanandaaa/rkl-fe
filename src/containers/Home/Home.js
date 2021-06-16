@@ -410,6 +410,198 @@ const IMAGESiphone12promax = [
     },
 ];
 
+const IMAGES1280 = [
+    {
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+
+    {
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "/gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+];
+
+const IMAGES1536 = [
+    {
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+
+    {
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "/gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+];
+
+const IMAGES1600 = [
+    {
+        src: "gallery - 1.jpg",
+        thumbnail: "gallery - 1.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 2.jpg",
+        thumbnail: "gallery - 2.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 3.jpg",
+        thumbnail: "gallery - 3.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 4.jpg",
+        thumbnail: "gallery - 4.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 5.jpg",
+        thumbnail: "gallery - 5.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+
+    {
+        src: "gallery - 6.jpg",
+        thumbnail: "gallery - 6.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 7.jpg",
+        thumbnail: "gallery - 7.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 8.jpg",
+        thumbnail: "gallery - 8.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "gallery - 9.jpg",
+        thumbnail: "gallery - 9.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+    {
+        src: "/gallery - 10.jpg",
+        thumbnail: "gallery - 10.jpg",
+        thumbnailWidth: 288,
+        thumbnailHeight: 216,
+    },
+];
+
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -422,39 +614,6 @@ class Home extends Component {
         // title.innerHTML = "HOME";
     }
 
-    tileViewportStyle() {
-        if (this.props.tileViewportStyle)
-            return this.props.tileViewportStyle.call(this);
-        var nanoBase64Backgorund = {};
-        if (this.props.item.nano) {
-            nanoBase64Backgorund = {
-                background: `url(${this.props.item.nano})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center center",
-            };
-        }
-        if (this.props.item.isSelected)
-            return Object.assign(
-                {
-                    width: this.props.item.vwidth - 32,
-                    height: this.props.height - 32,
-                    margin: 16,
-                    overflow: "hidden",
-                    backgroundSize: "cover",
-                },
-                nanoBase64Backgorund
-            );
-        return Object.assign(
-            {
-                width: this.props.item.vwidth,
-                height: this.props.height,
-                overflow: "hidden",
-                backgroundSize: "cover",
-            },
-            nanoBase64Backgorund
-        );
-    }
-
     render() {
         return (
             <div
@@ -463,9 +622,18 @@ class Home extends Component {
                     position: "relative",
                 }}
             >
-                <section class="section-class-home-page">
+                <section
+                    class="section-class-home-page"
+                    style={{
+                        backgroundImage: "url(mainbanner.jpg)",
+                        backgroundSize: "cover",
+                    }}
+                >
                     <div class="bg-for-homepage">
-                        <img class="image-homepage" src="mainbanner.jpg"></img>
+                        {/* <img
+                            class="image-homepage"
+                            src="mainbanner.jpg"
+                        ></img> */}
                     </div>
                     <div class="text-homepage-contain">
                         <p class="textbox-homepage">
@@ -474,29 +642,37 @@ class Home extends Component {
                             denizens of Jakarta
                         </p>
                     </div>
-                </section>
-                <section class="section-class-brand">
+                    {/* </section> */}
+                    {/* <section class="section-class-brand"> */}
+                    {/* <img class="image-homepage" src="mainbanner.jpg"></img> */}
                     <div class="flip-card contain-brand1 ">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand1"
-                                    src="brands - 1.jpg"
+                                    src="brands - 1.png"
                                 ></img>
-                                <p class="text-brand">Cafe Ruci</p>
+                                {/* <p class="text-brand">Cafe Ruci</p> */}
                             </div>
                             <div class="flip-card-back">
-                                <img
-                                    class="image-brand-flip1"
-                                    src="brands - 1.jpg"
-                                ></img>
-                                <p class="text-brand-flip">Cafe Ruci</p>
+                                <a
+                                    class=""
+                                    href="https://www.instagram.com/caferuci/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img
+                                        class="image-brand-flip1"
+                                        src="brands - 6.png"
+                                    ></img>
+                                </a>
+                                {/* <p class="text-brand-flip">Cafe Ruci</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
-                                </p>
-                                <a
+                                </p> */}
+                                {/* <a
                                     class="ig-brand"
                                     href="https://www.instagram.com/caferuci/"
                                     target="_blank"
@@ -506,7 +682,7 @@ class Home extends Component {
                                         class="ig-brand-logo"
                                         src="Instagram - White.png"
                                     ></img>
-                                </a>
+                                </a> */}
 
                                 {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
@@ -518,26 +694,26 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand2"
-                                    src="/brands - 2.jpg"
+                                    src="brands - 2.png"
                                 ></img>
-                                <p class="text-brand">RUCI's Joint</p>
+                                {/* <p class="text-brand">RUCI's Joint</p> */}
                             </div>
                             <div class="flip-card-back">
                                 <img
                                     class="image-brand-flip2"
-                                    src="brands - 2.jpg"
+                                    src="brands - 7.png"
                                 ></img>
-                                <p class="text-brand-flip">RUCI's Joint</p>
+                                {/* <p class="text-brand-flip">RUCI's Joint</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
-                                </p>
+                                </p> */}
 
-                                <img
+                                {/* <img
                                     class="ig-brand"
                                     src="Instagram - White.png"
-                                ></img>
+                                ></img> */}
                                 {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
@@ -548,22 +724,29 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand3"
-                                    src="brands - 3.jpg"
+                                    src="brands - 3.png"
                                 ></img>
-                                <p class="text-brand">Warget</p>
+                                {/* <p class="text-brand">Warget</p> */}
                             </div>
                             <div class="flip-card-back">
-                                <img
-                                    class="image-brand-flip3"
-                                    src="brands - 3.jpg"
-                                ></img>
-                                <p class="text-brand-flip">Warget</p>
+                                <a
+                                    class=""
+                                    href="https://www.instagram.com/wargetbahagia/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img
+                                        class="image-brand-flip3"
+                                        src="brands - 8.png"
+                                    ></img>
+                                </a>
+                                {/* <p class="text-brand-flip">Warget</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
-                                </p>
-                                <a
+                                </p> */}
+                                {/* <a
                                     class="ig-brand"
                                     href="https://www.instagram.com/wargetbahagia/"
                                     target="_blank"
@@ -573,7 +756,7 @@ class Home extends Component {
                                         class="ig-brand-logo"
                                         src="Instagram - White.png"
                                     ></img>
-                                </a>
+                                </a> */}
                                 {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
@@ -584,25 +767,25 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand4"
-                                    src="brands - 4.jpg"
+                                    src="brands - 4.png"
                                 ></img>
-                                <p class="text-brand">123</p>
+                                {/* <p class="text-brand">123</p> */}
                             </div>
                             <div class="flip-card-back">
                                 <img
                                     class="image-brand-flip4"
-                                    src="brands - 4.jpg"
+                                    src="brands - 9.png"
                                 ></img>
-                                <p class="text-brand-flip">123</p>
+                                {/* <p class="text-brand-flip">123</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
-                                </p>
-                                <img
+                                </p> */}
+                                {/* <img
                                     class="ig-brand"
                                     src="Instagram - White.png"
-                                ></img>
+                                ></img> */}
                                 {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
@@ -613,22 +796,29 @@ class Home extends Component {
                             <div class="flip-card-front">
                                 <img
                                     class="image-brand5"
-                                    src="brands - 5.jpg"
+                                    src="brands - 5.png"
                                 ></img>
-                                <p class="text-brand">Rararamenbar</p>
+                                {/* <p class="text-brand">Rararamenbar</p> */}
                             </div>
                             <div class="flip-card-back">
-                                <img
-                                    class="image-brand-flip5"
-                                    src="brands - 5.jpg"
-                                ></img>
-                                <p class="text-brand-flip">Rararamenbar</p>
+                                <a
+                                    class=""
+                                    href="https://www.instagram.com/rararamenbar/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img
+                                        class="image-brand-flip5"
+                                        src="brands - 10.png"
+                                    ></img>
+                                </a>
+                                {/* <p class="text-brand-flip">Rararamenbar</p>
                                 <p class="text-alamat">
                                     Jl. Suryo Blk. S No.49, Rw. Bar., Kec. Kby.
                                     Baru, Kota Jakarta Selatan, Daerah Khusus
                                     Ibukota Jakarta 12180
-                                </p>
-                                <a
+                                </p> */}
+                                {/* <a
                                     class="ig-brand"
                                     href="https://www.instagram.com/rararamenbar/"
                                     target="_blank"
@@ -638,7 +828,7 @@ class Home extends Component {
                                         class="ig-brand-logo"
                                         src="Instagram - White.png"
                                     ></img>
-                                </a>
+                                </a> */}
                                 {/* <img class="next-brand" src="Frame.png"></img> */}
                             </div>
                         </div>
@@ -648,9 +838,9 @@ class Home extends Component {
                 <section class="section-class-event">
                     <p class="event-promo-title">EVENT & PROMO</p>
 
-                    <img class="image-comingsoon" src="coming - soon.png"></img>
+                    {/* <img class="image-comingsoon" src="coming - soon.png"></img> */}
 
-                    {/* <div class="garis-event"></div>
+                    <div class="garis-event"></div>
                     <div class="carousel-event-promo">
                         <Carousel
                             swipeable={false}
@@ -658,7 +848,7 @@ class Home extends Component {
                             showDots={false}
                             responsive={responsive}
                             ssr={true} // means to render carousel on server-side.
-                            infinite={true}
+                            infinite={false}
                             // autoPlay={
                             //     this.props.deviceType !== "mobile" ? true : false
                             // }
@@ -676,85 +866,66 @@ class Home extends Component {
                             <div class="card-event-promo">
                                 <img
                                     class="image-event-promo"
-                                    src="event - 1.png"
+                                    src="event - 1.jpeg"
                                 ></img>
                                 <div class="text-event-promo">
                                     <p class="event-promo-subtitle">
-                                        Buy 5 Coffee Get 1 Coffee Free
+                                        WE ARE OPEN
                                     </p>
-                                    <p class="event-promo-brand">Warget</p>
-                                    <p class="event-promo-date">
-                                        1 May - 20 May 2021
-                                    </p>
+                                    <p class="event-promo-brand">Cafe Ruci</p>
+                                    <p class="event-promo-date">2021</p>
                                 </div>
                             </div>
                             <div class="card-event-promo">
                                 <img
                                     class="image-event-promo"
-                                    src="event - 2.png"
+                                    src="event - 2.jpeg"
                                 ></img>
                                 <div class="text-event-promo">
                                     <p class="event-promo-subtitle">
-                                        Buy 1 Get 1 Free
+                                        WE ARE OPEN
                                     </p>
-                                    <p class="event-promo-brand">Warget</p>
-                                    <p class="event-promo-date">
-                                        1 May - 20 May 2021
-                                    </p>
+                                    <p class="event-promo-brand">Cafe Ruci</p>
+                                    <p class="event-promo-date">2021</p>
                                 </div>
                             </div>
                             <div class="card-event-promo">
                                 <img
                                     class="image-event-promo"
-                                    src="event - 3.png"
+                                    src="event - 3.jpeg"
                                 ></img>
                                 <div class="text-event-promo">
                                     <p class="event-promo-subtitle">
-                                        Holiday with Beer and Live Music
+                                        SPECIAL PRICE KAWA KAWA
                                     </p>
-                                    <p class="event-promo-brand">Warget</p>
-                                    <p class="event-promo-date">
-                                        1 May - 20 May 2021
+                                    <p class="event-promo-brand">
+                                        Rararamenbar
                                     </p>
+                                    <p class="event-promo-date">2021</p>
                                 </div>
                             </div>
                             <div class="card-event-promo">
                                 <img
                                     class="image-event-promo"
-                                    src="event - 4.png"
+                                    src="event - 4.jpeg"
                                 ></img>
                                 <div class="text-event-promo">
                                     <p class="event-promo-subtitle">
-                                        We’re Get Certified of Healthy Food
+                                        FAMILY MEALS
                                     </p>
-                                    <p class="event-promo-brand">Warget</p>
-                                    <p class="event-promo-date">
-                                        1 May - 20 May 2021
+                                    <p class="event-promo-brand">
+                                        Rararamenbar
                                     </p>
+                                    <p class="event-promo-date">2021</p>
                                 </div>
                             </div>
-                            <div class="card-event-promo">
-                                <img
-                                    class="image-event-promo"
-                                    src="event - 3.png"
-                                ></img>
-                                <div class="text-event-promo">
-                                    <p class="event-promo-subtitle">
-                                        We’re Get Certified of Healthy Food
-                                    </p>
-                                    <p class="event-promo-brand">Warget</p>
-                                    <p class="event-promo-date">
-                                        1 May - 20 May 2021
-                                    </p>
-                                </div>
-                            </div>
-                        </Carousel> 
-                    </div>*/}
+                        </Carousel>
+                    </div>
                 </section>
                 <section class="section-class-gallery">
                     <p class="gallery-title">GALLERY</p>
-                    <img class="image-comingsoon" src="coming - soon.png"></img>
-                    {/* <div class="garis-gallery"></div>
+                    {/* <img class="image-comingsoon" src="coming - soon.png"></img> */}
+                    <div class="garis-gallery"></div>
                     <div class="gallery-row-andro">
                         <Gallery
                             images={IMAGESandro}
@@ -834,6 +1005,62 @@ class Home extends Component {
                             // tileViewportStyle={this.tileViewportStyle}
                         />
                     </div>
+                    <div class="gallery-row1280">
+                        <Gallery
+                            images={IMAGES1280}
+                            backdropClosesModal={true}
+                            showImageCount={false}
+                            enableImageSelection={false}
+                            margin={0}
+                            maxRows={5}
+                            rowHeight={220}
+                            id={"test122"}
+                            // tagStyle={test1}
+                            // tileViewportStyle={this.tileViewportStyle}
+                        />
+                    </div>
+                    <div class="gallery-row1536">
+                        <Gallery
+                            images={IMAGES1536}
+                            backdropClosesModal={true}
+                            showImageCount={false}
+                            enableImageSelection={false}
+                            margin={0}
+                            maxRows={5}
+                            rowHeight={240}
+                            id={"test122"}
+                            // tagStyle={test1}
+                            // tileViewportStyle={this.tileViewportStyle}
+                        />
+                    </div>
+                    <div class="gallery-row1600">
+                        <Gallery
+                            images={IMAGES1536}
+                            backdropClosesModal={true}
+                            showImageCount={false}
+                            enableImageSelection={false}
+                            margin={0}
+                            maxRows={5}
+                            rowHeight={260}
+                            id={"test122"}
+                            // tagStyle={test1}
+                            // tileViewportStyle={this.tileViewportStyle}
+                        />
+                    </div>
+                    <div class="gallery-row1920">
+                        <Gallery
+                            images={IMAGES1536}
+                            backdropClosesModal={true}
+                            showImageCount={false}
+                            enableImageSelection={false}
+                            margin={0}
+                            maxRows={5}
+                            rowHeight={300}
+                            id={"test122"}
+                            // tagStyle={test1}
+                            // tileViewportStyle={this.tileViewportStyle}
+                        />
+                    </div>
                     <p class="text-field-1">LET’S BE</p>
                     <p class="text-field-2">PART OF US</p>
                     <form>
@@ -843,7 +1070,7 @@ class Home extends Component {
                             placeholder="Enter your phone number/email"
                         />
                         <button class="button-email-text">Send</button>
-                    </form> */}
+                    </form>
                 </section>
             </div>
         );
