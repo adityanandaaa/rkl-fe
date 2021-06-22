@@ -1,0 +1,578 @@
+.section-class-brand-page {
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    height: 600px;
+}
+.bg-for-brandpage {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.image-brandpage {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    opacity: 0.3;
+}
+
+.text-brandpage {
+    position: absolute;
+    width: 40%;
+    height: 96px;
+    left: 30%;
+    top: 31.5%;
+
+    /* font-family: Merriweather Sans; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+}
+
+.section-class-brands-page {
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    height: 90vh;
+}
+.brands-text-page {
+    position: absolute;
+    width: 1100px;
+    height: 270px;
+    left: 170px;
+    top: 50px;
+
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    /* or 45px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.brands-menu-title {
+    position: absolute;
+    left: 610.5px;
+    /* height: 60px;
+    width: 185px; */
+    top: 260px;
+
+    /* font-family: Merriweather Sans;ç */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    z-index: 3;
+}
+
+.garis-brands-menu {
+    position: absolute;
+    width: 210px;
+    height: 0px;
+    left: 602px;
+    top: 360px;
+
+    border: 2px solid #000000;
+}
+
+.food-drink-image {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 139px;
+    top: 380px;
+
+    /* filter: brightness(60%); */
+}
+
+.food-brandpage {
+    width: 571px;
+    height: 199px;
+    object-fit: cover;
+}
+
+.text-brand-food {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.drink-brandpage {
+    width: 571px;
+    height: 199px;
+    object-fit: cover;
+}
+
+.text-brand-drink {
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+/* android */
+@media screen and (max-width: 374px) {
+    .section-class-brand-page {
+        height: 500px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+
+    .text-brandpage {
+        width: 110px;
+        height: 45px;
+        left: 125px;
+        top: 208px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone 6/7/8 */
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    .section-class-brand-page {
+        height: 550px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 550px;
+    }
+
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+    .text-brandpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 222.5px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone x */
+@media screen and (min-width: 375px) and (max-width: 413px) and (min-height: 812px) {
+    .section-class-brand-page {
+        height: 600px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+    }
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+
+    .text-brandpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 247.5px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone 12 */
+@media screen and (min-width: 390px) and (max-width: 413px) and (min-height: 844px) {
+    .section-class-brand-page {
+        height: 600px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+    }
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+    .text-brandpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 245px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone 6/7/8 plus */
+@media screen and (min-width: 414px) and (max-width: 719px) {
+    .section-class-brand-page {
+        height: 630px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 630px;
+    }
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+    .text-brandpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 260px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone xr */
+@media screen and (min-width: 414px) and (max-width: 767px) and (min-height: 896px) {
+    .section-class-brand-page {
+        height: 730px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 730px;
+    }
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+
+    .text-brandpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 310px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* iphone 12 pro max */
+@media screen and (min-width: 428px) and (max-width: 767px) and (min-height: 926px) {
+    .section-class-brand-page {
+        height: 830px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        object-fit: cover;
+        width: 100%;
+        height: 830px;
+    }
+    .image-contact-section {
+        display: none;
+    }
+    .image-contact-section-mobile {
+        display: block;
+    }
+
+    .text-brandpage {
+        width: 30%;
+        height: 45px;
+        left: 35%;
+        top: 360px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+
+        letter-spacing: 0.02em;
+    }
+}
+
+/* 1280 x 720 */
+@media screen and (min-width: 1280px) and (max-width: 1365px) and (min-height: 719px) {
+    .section-class-brand-page {
+        height: 600px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        width: 100%;
+        height: 600px;
+        opacity: 0.3;
+    }
+
+    .text-brandpage {
+        position: absolute;
+        width: 20%;
+        height: 96px;
+        left: 40%;
+        top: 188px;
+
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+}
+
+/* 1366 x 768 */
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    .section-class-brand-page {
+        height: 600px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        width: 100%;
+        height: 600px;
+        opacity: 0.3;
+    }
+
+    .text-brandpage {
+        position: absolute;
+        width: 20%;
+        height: 96px;
+        left: 40%;
+        top: 188px;
+
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+}
+
+/* 1536 x 864 */
+@media screen and (min-width: 1536px) and (max-width: 1599px) {
+    .section-class-brand-page {
+        height: 660px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        width: 100%;
+        height: 660px;
+        opacity: 0.3;
+    }
+
+    .text-brandpage {
+        position: absolute;
+        width: 20%;
+        height: 96px;
+        left: 40%;
+        top: 214px;
+
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 68px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+}
+
+/* 1600 x 900 */
+@media screen and (min-width: 1600px) and (max-width: 1601px) {
+    .section-class-brand-page {
+        height: 720px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        width: 100%;
+        height: 720px;
+        opacity: 0.3;
+    }
+
+    .text-brandpage {
+        position: absolute;
+        width: 20%;
+        height: 96px;
+        left: 40%;
+        top: 244px;
+
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 68px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+}
+
+/* 1920 x 1080 */
+@media screen and (min-width: 1920px) and (max-width: 1921px) {
+    .section-class-brand-page {
+        height: 900px;
+    }
+    .bg-for-brandpage {
+        width: 100%;
+        height: 100%;
+    }
+    .image-brandpage {
+        width: 100%;
+        height: 900px;
+        opacity: 0.3;
+    }
+
+    .text-brandpage {
+        position: absolute;
+        width: 20%;
+        height: 96px;
+        left: 40%;
+        top: 358px;
+
+        /* font-family: Merriweather Sans; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 68px;
+        line-height: 150%;
+
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+}
